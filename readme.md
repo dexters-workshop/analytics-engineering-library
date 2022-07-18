@@ -1,19 +1,15 @@
 # Analytics Engineering Library
 
 ## Sections
-
 - [SQL](#sql)
 - [Style Guides](#style-guides)
 - [Markdown](#markdown)
 - [Visual Studio Code](#visual-studio-code)
 
----
-
 ## SQL
 
 - [CTEs versus Subqueries](https://www.alisa-in.tech/post/2019-10-02-ctes/)
 
----
 
 ## Style Guides:
 - [Gitlab SQL Style Guide](https://about.gitlab.com/handbook/business-technology/data-team/platform/sql-style-guide/)
