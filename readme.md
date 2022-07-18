@@ -1,6 +1,7 @@
 # Analytics Engineering Library
 
 ## Sections
+
 - [SQL](#sql)
 - [Style Guides](#style-guides)
 - [Markdown](#markdown)
