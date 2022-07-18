@@ -10,6 +10,8 @@
 
 ## SQL
 
+- [CTEs versus Subqueries](https://www.alisa-in.tech/post/2019-10-02-ctes/)
+
 ---
 
 ## Style Guides:
@@ -22,7 +24,7 @@
 ---
 
 ## Markdown
-[Introduction to Markdown in Visual Studio Code (with Markdown worksheet!)](https://www.youtube.com/watch?v=pTCROLZLhDM)
+- [Introduction to Markdown in Visual Studio Code (with Markdown worksheet!)](https://www.youtube.com/watch?v=pTCROLZLhDM)
 [dbt ]
 
 ---
