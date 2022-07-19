@@ -22,9 +22,9 @@
 
 ### 0.1 Cleaning / Tidying / Munging / Wrangling
 - [Tidy Data, Hadley Wickham](https://cran.r-project.org/web/packages/tidyr/vignettes/tidy-data.html) 
-    - >*The principles of tidy data provide a standard way to organize data values within a dataset.*
+    > *The principles of tidy data provide a standard way to organize data values within a dataset.*
 - [The Quartz guide to bad data](https://github.com/Quartz/bad-data-guide)
-    - >An exhaustive reference to problems seen in real-world data along with suggestions on how to resolve them.
+    > *An exhaustive reference to problems seen in real-world data along with suggestions on how to resolve them.*
 
 
 ## Style Guides:
