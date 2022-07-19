@@ -2,8 +2,10 @@
 
 
 ## Sections
+- [To Read, To Process](#to-read-to-process)
 - [SQL](#sql)
 - [Data Modeling](#data-modeling)
+- [Version Control](#version-control)
 - [Style Guides](#style-guides)
 - [Markdown](#markdown)
 - [Visual Studio Code](#visual-studio-code)
@@ -13,19 +15,55 @@
 
 ---
 
+## To Read, To Process
+- [Learning SQL 201: Optimizing Queries, Regardless of Platform](https://towardsdatascience.com/learning-sql-201-optimizing-queries-regardless-of-platform-918a3af9c8b1)
+- [SQL: Don't Do This](https://wiki.postgresql.org/wiki/Don%27t_Do_This)
+- [Analyzing 89 Responses to a SQL Screener Question for a Senior Data Analyst Position](https://mattmazur.com/2018/11/12/analyzing-89-responses-to-a-sql-screener-question-for-a-senior-data-analyst-position/)
+- [An Opinionated Introduction to Data Warehouse Query Strategies, Part 1 of N](https://calogica.com/sql/2018/06/22/data-warehouse-query-strategies.html)
+- [SQL Window Functions to Pass a Data Analytics Interview (Opinionated SQL Series Part 2/N)](https://calogica.com/sql/2018/07/01/sql-functions-for-data-analyst-interviews.html)
+
+---
+
+
 ## SQL
 
 - [CTEs versus Subqueries](https://www.alisa-in.tech/post/2019-10-02-ctes/)
+- [The most underutilized function in SQL](https://www.getdbt.com/blog/the-most-underutilized-function-in-sql/)
+    > *In this post I’m going to show you two uses for md5() that make it one of the most powerful tools in my SQL kit.*
+
+
+---
 
 
 ## Data Modeling
 
-### 0.1 Cleaning / Tidying / Munging / Wrangling
+#### Cleaning / Tidying / Munging / Wrangling
 - [Tidy Data, Hadley Wickham](https://cran.r-project.org/web/packages/tidyr/vignettes/tidy-data.html) 
     > *The principles of tidy data provide a standard way to organize data values within a dataset.*
 - [The Quartz guide to bad data](https://github.com/Quartz/bad-data-guide)
     > *An exhaustive reference to problems seen in real-world data along with suggestions on how to resolve them.*
 
+#### Slowly Changing Dimensions
+- [Slowly Changing Dimensions in Data Science](https://www.fivetran.com/blog/slowly-changing-dimensions-in-data-science)
+
+
+---
+
+
+## Version Control
+
+#### Git
+- [Git Immersion](https://gitimmersion.com/index.html)
+    > *A guided tour that walks through the fundamentals of Git, inspired by the premise that to know a thing is to do it.*
+- [How to Write a Git Commit Message](https://cbea.ms/git-commit/)
+    > *Commit messages matter. Here's how to write them well.*
+- [Learn git concepts, not commands](https://dev.to/unseenwizzard/learn-git-concepts-not-commands-4gjc)
+    > *An interactive git tutorial meant to teach you how git works, not just which commands to execute.*
+- [Flight rules for Git](https://github.com/k88hudson/git-flight-rules)
+    > *A guide for astronauts (now, programmers using Git) about what to do when things go wrong.*
+
+
+---
 
 ## Style Guides:
 - [Gitlab SQL Style Guide](https://about.gitlab.com/handbook/business-technology/data-team/platform/sql-style-guide/)
