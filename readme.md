@@ -21,16 +21,29 @@
 - [Analyzing 89 Responses to a SQL Screener Question for a Senior Data Analyst Position](https://mattmazur.com/2018/11/12/analyzing-89-responses-to-a-sql-screener-question-for-a-senior-data-analyst-position/)
 - [An Opinionated Introduction to Data Warehouse Query Strategies, Part 1 of N](https://calogica.com/sql/2018/06/22/data-warehouse-query-strategies.html)
 - [SQL Window Functions to Pass a Data Analytics Interview (Opinionated SQL Series Part 2/N)](https://calogica.com/sql/2018/07/01/sql-functions-for-data-analyst-interviews.html)
+- [SQL Tutorial](https://www.geeksforgeeks.org/sql-tutorial/)
 
 ---
 
 
 ## SQL
 
+#### SQL: General
+
 - [CTEs versus Subqueries](https://www.alisa-in.tech/post/2019-10-02-ctes/)
 - [The most underutilized function in SQL](https://www.getdbt.com/blog/the-most-underutilized-function-in-sql/)
     > *In this post I’m going to show you two uses for md5() that make it one of the most powerful tools in my SQL kit.*
+- [The Three-Valued Logic of SQL](https://modern-sql.com/concept/three-valued-logic)
+    >*SQL uses a three-valued logic: besides true and false, the result of logical expressions can also be unknown. SQL’s three valued logic is a consequence of supporting null to mark absent data. If a null value affects the result of a logical expression, the result is neither true nor false but unknown.*
 
+
+#### SQL: Interviewing
+- [How to learn SQL for data science interview (the minimize effort maximize outcome way)](https://www.youtube.com/watch?v=vaD3ZFFNwhM&ab_channel=TinaHuang)
+- [SQL Sundays (YouTube)](https://www.youtube.com/playlist?list=PLVD3APpfd1tuXrXBWAntLx4tNaONro5dA)
+    > *Real data science SQL interview question walk through with a FAANG data scientist.*
+
+#### SQL: History
+- [Relational Database History, Edgar F. Codd](https://www.ibm.com/ibm/history/ibm100/us/en/icons/reldb/)
 
 ---
 
@@ -78,7 +91,7 @@
 
 ## Visual Studio Code
 - Shortcuts:
-    - Open Preview: `CMD + K then V`
+    - Open Preview: `CMD + K then V` (splits screen) OR `CMD + Shift + V`
 
 
 ## To Be Organized
@@ -87,6 +100,7 @@
 
 ## Blogs, etc.
 - [Locally Optimistic](https://locallyoptimistic.com/)
+- [Modern SQL - A Lot has Changed Since SQL - 92](https://modern-sql.com/concept/three-valued-logic)
 
 
 ## AE Experts
