@@ -28,7 +28,7 @@
 
 ## SQL
 
-#### SQL: General
+#### SQL | General
 
 - [CTEs versus Subqueries](https://www.alisa-in.tech/post/2019-10-02-ctes/)
 - [The most underutilized function in SQL](https://www.getdbt.com/blog/the-most-underutilized-function-in-sql/)
@@ -37,13 +37,17 @@
     >*SQL uses a three-valued logic: besides true and false, the result of logical expressions can also be unknown. SQL’s three valued logic is a consequence of supporting null to mark absent data. If a null value affects the result of a logical expression, the result is neither true nor false but unknown.*
 
 
-#### SQL: Interviewing
+#### SQL | Interviewing
 - [How to learn SQL for data science interview (the minimize effort maximize outcome way)](https://www.youtube.com/watch?v=vaD3ZFFNwhM&ab_channel=TinaHuang)
 - [SQL Sundays (YouTube)](https://www.youtube.com/playlist?list=PLVD3APpfd1tuXrXBWAntLx4tNaONro5dA)
     > *Real data science SQL interview question walk through with a FAANG data scientist.*
 
-#### SQL: History
+#### SQL | History
 - [Relational Database History, Edgar F. Codd](https://www.ibm.com/ibm/history/ibm100/us/en/icons/reldb/)
+
+
+#### SQL | Experts
+- [Tihomir Babic, Technical Writer for LearnSQL.com](https://learnsql.com/authors/tihomir-babic/)
 
 ---
 
