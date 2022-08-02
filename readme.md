@@ -32,13 +32,13 @@
 
 - [SQL COUNT Function Explained with Examples](https://www.databasestar.com/sql-count/)
     >*Really nice article that goes over the syntax of count() and ALL of the nuances that matter when using it*
- 
-    >*Key Takeaways for What Count() Does:*
-        *1. COUNT(*) *– all rows, including duplicates and nulls.*
-        *2. COUNT(expression) – all rows excluding null.*
-        *3. COUNT(DISTINCT expression) – all rows excluding duplicates and nulls.*
 
     ```sql
+    -- what does count() do?
+    COUNT(*)                   -- counts ALL rows, including duplicates and nulls
+    COUNT(expression)          -- counts ALL rows excluding nulls
+    COUNT(DISTINCT expression) -- counts ALL rows excluding duplicates and nulls
+    
     -- basic syntax
     COUNT ( [ * | [ DISTINCT | ALL ] expression) [ over (analytic_clause) ]
 
