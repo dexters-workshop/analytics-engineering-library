@@ -16,6 +16,7 @@
 ---
 
 ## To Read, To Process
+- [What is Operational Analytics (and how is it changing how we work with data)?](https://www.getcensus.com/blog/what-is-operational-analytics)
 - [Learning SQL 201: Optimizing Queries, Regardless of Platform](https://towardsdatascience.com/learning-sql-201-optimizing-queries-regardless-of-platform-918a3af9c8b1)
 - [SQL: Don't Do This](https://wiki.postgresql.org/wiki/Don%27t_Do_This)
 - [Analyzing 89 Responses to a SQL Screener Question for a Senior Data Analyst Position](https://mattmazur.com/2018/11/12/analyzing-89-responses-to-a-sql-screener-question-for-a-senior-data-analyst-position/)
@@ -50,6 +51,7 @@
     COUNT(DISTINCT expression) OVER (analytic_clause)
     COUNT(ALL expression) OVER (analytic_clause)
     ```
+
 - [What is the Difference Between COUNT(*), COUNT(1), COUNT(column name), and COUNT(DISTINCT column name)?](https://learnsql.com/blog/difference-between-count-distinct/)
     >*Have you noticed there are different variations of the SQL COUNT() function? This article explains the various arguments and their uses.*
 
@@ -58,6 +60,14 @@
     > *In this post I’m going to show you two uses for md5() that make it one of the most powerful tools in my SQL kit.*
 - [The Three-Valued Logic of SQL](https://modern-sql.com/concept/three-valued-logic)
     >*SQL uses a three-valued logic: besides true and false, the result of logical expressions can also be unknown. SQL’s three valued logic is a consequence of supporting null to mark absent data. If a null value affects the result of a logical expression, the result is neither true nor false but unknown.*
+
+
+#### SQL | Training
+- [learnsql.com | Learn & Practice SQL](https://learnsql.com/)
+    >*one of my favorite online platforms for learning/practicing SQL*
+- [co:rise | Intro to SQL](https://corise.com/course/intro-to-sql)
+    >*This course provides an introduction to SQL, a programming language that will unleash your ability to explore data. We'll cover all the fundamentals of SQL, and you'll leave knowing how to issue SQL queries and interact with databases, as well as how to translate English queries to SQL correctly and quickly. We'll approach SQL in a hands-on manner with real-life examples and we'll build complexity in our SQL queries week over week.*
+
 
 
 #### SQL | Interviewing
