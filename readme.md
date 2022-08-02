@@ -30,6 +30,29 @@
 
 #### SQL | General
 
+- [SQL COUNT Function Explained with Examples](https://www.databasestar.com/sql-count/)
+    >*Really nice article that goes over the syntax of count() and ALL of the nuances that matter when using it*
+ 
+    >*Key Takeaways for What Count() Does:*
+        *1. COUNT(*) *– all rows, including duplicates and nulls.*
+        *2. COUNT(expression) – all rows excluding null.*
+        *3. COUNT(DISTINCT expression) – all rows excluding duplicates and nulls.*
+
+    ```sql
+    -- basic syntax
+    COUNT ( [ * | [ DISTINCT | ALL ] expression) [ over (analytic_clause) ]
+
+    -- variations for how to call count()
+    COUNT(*)
+    COUNT(DISTINCT expression)
+    COUNT(ALL expression)
+    COUNT(*) OVER (analytic_clause)
+    COUNT(DISTINCT expression) OVER (analytic_clause)
+    COUNT(ALL expression) OVER (analytic_clause)
+    ```
+- [What is the Difference Between COUNT(*), COUNT(1), COUNT(column name), and COUNT(DISTINCT column name)?](https://learnsql.com/blog/difference-between-count-distinct/)
+    >*Have you noticed there are different variations of the SQL COUNT() function? This article explains the various arguments and their uses.*
+
 - [CTEs versus Subqueries](https://www.alisa-in.tech/post/2019-10-02-ctes/)
 - [The most underutilized function in SQL](https://www.getdbt.com/blog/the-most-underutilized-function-in-sql/)
     > *In this post I’m going to show you two uses for md5() that make it one of the most powerful tools in my SQL kit.*
@@ -38,6 +61,7 @@
 
 
 #### SQL | Interviewing
+- [31 SQL Questions for Data Analysts [Updated for 2022]](https://www.interviewquery.com/p/sql-questions-data-analyst)
 - [How to learn SQL for data science interview (the minimize effort maximize outcome way)](https://www.youtube.com/watch?v=vaD3ZFFNwhM&ab_channel=TinaHuang)
 - [SQL Sundays (YouTube)](https://www.youtube.com/playlist?list=PLVD3APpfd1tuXrXBWAntLx4tNaONro5dA)
     > *Real data science SQL interview question walk through with a FAANG data scientist.*
@@ -109,4 +133,5 @@
 
 ## AE Experts
 - [Claire Carroll](https://clrcrl.com/)
+- [Madison Schott](https://madisonmae.substack.com/)
 - [Parker Tenpas](https://pdtenpas.github.io/)
