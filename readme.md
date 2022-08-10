@@ -82,7 +82,8 @@
 - [An Introduction to Using SQL Aggregate Functions with JOINs](https://learnsql.com/blog/introduction-using-aggregate-functions-joins/)
     >*Key Insight(s): using conditions in the JOIN predicate (after the ON) is not the same as filtering in the WHERE (or using HAVING). These can create subtle (or not so subtle) differences in your summarized data, which could result in hard-to-spot errors.*
         - *WHERE conditions are applied **after** the JOIN*
-        - *conditions (for filtering) applied in the JOIN predicate are applied **before** the join*
+        - *conditions (for filtering) applied in the JOIN predicate are 
+        applied **before** the join*
 
 #### SQL | Training
 - [learnsql.com | Learn & Practice SQL](https://learnsql.com/)
@@ -97,9 +98,11 @@
 #### SQL | Interviewing
 - [Top Skills to Ace Every SQL Interview Question](https://medium.com/towards-data-science/top-skills-to-ace-every-sql-interview-question-33356b08845a)
     >***Madison Schott:** "Once you nail a few key concepts you can pretty much answer any question, with lots of practice that is. Start with the basics for each of these concepts and work your way up to more difficult problems."*
-        1. Master Joins
-        2. Master Aggregate Functions
-        3. Master Subqueries
+        1) Master Joins;
+        2) Master Aggregate Functions;
+        3) Master Subqueries.
+- [Analyzing 89 Responses to a SQL Screener Question for a Senior Data Analyst Position](https://mattmazur.com/2018/11/12/analyzing-89-responses-to-a-sql-screener-question-for-a-senior-data-analyst-position/comment-page-1/?unapproved=55959&moderation-hash=65cb4dbf0ddf1d2f87c78641dbcc59f7#comment-55959)
+    >*Matt Mazur's analysis of candidate responses to a SQL Screener Question that was designed to weed out weaker candidates*
 - [31 SQL Questions for Data Analysts [Updated for 2022]](https://www.interviewquery.com/p/sql-questions-data-analyst)
 - [How to learn SQL for data science interview (the minimize effort maximize outcome way)](https://www.youtube.com/watch?v=vaD3ZFFNwhM&ab_channel=TinaHuang)
 - [SQL Sundays (YouTube)](https://www.youtube.com/playlist?list=PLVD3APpfd1tuXrXBWAntLx4tNaONro5dA)
