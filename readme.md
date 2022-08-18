@@ -15,11 +15,10 @@
 
 ---
 
-## To Read, To Process
+## To Read, To Process (section now in google doc)
 - [What is Operational Analytics (and how is it changing how we work with data)?](https://www.getcensus.com/blog/what-is-operational-analytics)
 - [Learning SQL 201: Optimizing Queries, Regardless of Platform](https://towardsdatascience.com/learning-sql-201-optimizing-queries-regardless-of-platform-918a3af9c8b1)
 - [SQL: Don't Do This](https://wiki.postgresql.org/wiki/Don%27t_Do_This)
-- [Analyzing 89 Responses to a SQL Screener Question for a Senior Data Analyst Position](https://mattmazur.com/2018/11/12/analyzing-89-responses-to-a-sql-screener-question-for-a-senior-data-analyst-position/)
 - [An Opinionated Introduction to Data Warehouse Query Strategies, Part 1 of N](https://calogica.com/sql/2018/06/22/data-warehouse-query-strategies.html)
 - [SQL Window Functions to Pass a Data Analytics Interview (Opinionated SQL Series Part 2/N)](https://calogica.com/sql/2018/07/01/sql-functions-for-data-analyst-interviews.html)
 - [SQL Tutorial](https://www.geeksforgeeks.org/sql-tutorial/)
@@ -46,6 +45,14 @@
     > *In this post I’m going to show you two uses for md5() that make it one of the most powerful tools in my SQL kit.*
 - [The Three-Valued Logic of SQL](https://modern-sql.com/concept/three-valued-logic)
     >*SQL uses a three-valued logic: besides true and false, the result of logical expressions can also be unknown. SQL’s three valued logic is a consequence of supporting null to mark absent data. If a null value affects the result of a logical expression, the result is neither true nor false but unknown.*
+
+#### SQL | Filtering Data
+
+- [HAVING vs. WHERE in SQL: What You Should Know](https://learnsql.com/blog/sql-having-vs-where/)
+    >*In simple words, the WHERE and HAVING clauses **act as filters;** they remove records or data that don’t meet certain criteria from the final result of a query. However, they are **applied to different sets of data.** That’s the important point to understand about WHERE vs. HAVING: **WHERE filters at the record level,** while **HAVING filters at the "group of records" level.*** 🔥
+
+- [What is the difference between HAVING and WHERE clause?](https://afteracademy.com/blog/what-is-the-difference-between-having-and-where-clause)
+    >*Not the best article BUT I do like this clarifying statement: If **GROUP BY** is used then it is **executed after the WHERE clause** is executed in the query. It means it selects the rows before grouping is done or aggregate calculations are performed. That's why, the WHERE clause is also called **Pre-filter.** But, **GROUP BY is executed before the execution of the HAVING clause.** It means it selects the rows after aggregate calculations are performed. That's why, the HAVING clause is also called as **Post-filter.***
 
 
 #### SQL | Functions
@@ -77,7 +84,7 @@
 - [SQL Window Functions vs. SQL Aggregate Functions: Similarities and Differences](https://learnsql.com/blog/window-functions-vs-aggregate-functions/)
 
 
-#### SQL | Joining Tables
+#### SQL | Joining Tables (call this Combining Tables/Data instead?)
 
 - [An Introduction to Using SQL Aggregate Functions with JOINs](https://learnsql.com/blog/introduction-using-aggregate-functions-joins/)
     >*Key Insight(s): using conditions in the JOIN predicate (after the ON) is not the same as filtering in the WHERE (or using HAVING). These can create subtle (or not so subtle) differences in your summarized data, which could result in hard-to-spot errors.*
@@ -107,6 +114,9 @@
 - [How to learn SQL for data science interview (the minimize effort maximize outcome way)](https://www.youtube.com/watch?v=vaD3ZFFNwhM&ab_channel=TinaHuang)
 - [SQL Sundays (YouTube)](https://www.youtube.com/playlist?list=PLVD3APpfd1tuXrXBWAntLx4tNaONro5dA)
     > *Real data science SQL interview question walk through with a FAANG data scientist.*
+
+- [Frequently Asked Questions About SQL](https://learnsql.com/blog/frequently-asked-questions-about-sql/)
+    >*Not my favorite article BUT has a solid list of topics AND also some great links to other resources. Keeping in the library for now...*
 
 #### SQL | History
 - [Relational Database History, Edgar F. Codd](https://www.ibm.com/ibm/history/ibm100/us/en/icons/reldb/)
