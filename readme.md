@@ -97,12 +97,14 @@
 
 - [[Video] Lead and Lag functions in SQL Server 2012](https://www.youtube.com/watch?v=l_Zn5sdkamM&ab_channel=kudvenkat)
     >*excellent overview of these two functions (should generalize to other SQL dialects)*
+    
     SUMMARY:
+
         - LEAD function used to access subsequent row of data along w/current row of data.
         - LAG function used to access previous row of data along w/current row of data.
         - ORDER BY clase is required.
         - PARTITION BY clause is optional
-        
+
     
 
 
