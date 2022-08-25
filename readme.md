@@ -14,6 +14,7 @@
 - [AE Experts](#ae-experts)
 - [Non-AE Aritcles](#non-ae)
 
+<br>
 
 ---
 
@@ -95,15 +96,15 @@
 - [Let's Learn SQL Window Functions](https://madisonmae.substack.com/p/lets-learn-sql-window-functions)
     >*nice summary of window function's by Madison Mae (+with examples)*
 
+
 - [[Video] Lead and Lag functions in SQL Server 2012](https://www.youtube.com/watch?v=l_Zn5sdkamM&ab_channel=kudvenkat)
     >*excellent overview of these two functions (should generalize to other SQL dialects)*
-    
-    SUMMARY:
 
         - LEAD function used to access subsequent row of data along w/current row of data.
         - LAG function used to access previous row of data along w/current row of data.
         - ORDER BY clase is required.
         - PARTITION BY clause is optional
+        - syntax: LEAD/LAG(col-name, offset, default-value) OVER(ORDER BY col1, col2, ...)
 
     
 
