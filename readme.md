@@ -3,6 +3,7 @@
 
 ## Sections
 - [To Read, To Process](#to-read-to-process)
+- [Analytics Engineering](#analytics-engineering)
 - [SQL](#sql)
 - [Data Modeling](#data-modeling)
 - [Version Control](#version-control)
@@ -11,6 +12,7 @@
 - [Visual Studio Code](#visual-studio-code)
 - [Blogs, etc.](#blogs-etc)
 - [AE Experts](#ae-experts)
+- [Non-AE Aritcles](#non-ae)
 
 
 ---
@@ -28,6 +30,7 @@
 ## Analytics Engineering (AE)
 
 #### AE | General
+- [Aspiring Analytics Engineers, Start Here](https://madisonmae.substack.com/p/aspiring-analytics-engineers-start)
 
 #### AE | Blogs
 - [Learn Analytics Enginneering](https://madisonmae.substack.com/archive?sort=new)
@@ -46,6 +49,9 @@
 - [The Three-Valued Logic of SQL](https://modern-sql.com/concept/three-valued-logic)
     >*SQL uses a three-valued logic: besides true and false, the result of logical expressions can also be unknown. SQL’s three valued logic is a consequence of supporting null to mark absent data. If a null value affects the result of a logical expression, the result is neither true nor false but unknown.*
 
+- [SQL Fiddle](http://sqlfiddle.com/about.html)
+    >*A tool for easy online testing and sharing of database problems and their solutions.*
+
 #### SQL | Filtering Data
 
 - [HAVING vs. WHERE in SQL: What You Should Know](https://learnsql.com/blog/sql-having-vs-where/)
@@ -55,7 +61,7 @@
     >*Not the best article BUT I do like this clarifying statement: If **GROUP BY** is used then it is **executed after the WHERE clause** is executed in the query. It means it selects the rows before grouping is done or aggregate calculations are performed. That's why, the WHERE clause is also called **Pre-filter.** But, **GROUP BY is executed before the execution of the HAVING clause.** It means it selects the rows after aggregate calculations are performed. That's why, the HAVING clause is also called as **Post-filter.***
 
 
-#### SQL | Functions
+#### SQL | General Functions
 
 - [SQL COUNT Function Explained with Examples](https://www.databasestar.com/sql-count/)
     >*Really nice article that goes over the syntax of count() and ALL of the nuances that matter when using it*
@@ -84,6 +90,22 @@
 - [SQL Window Functions vs. SQL Aggregate Functions: Similarities and Differences](https://learnsql.com/blog/window-functions-vs-aggregate-functions/)
 
 
+#### SQL | Window Functions
+
+- [Let's Learn SQL Window Functions](https://madisonmae.substack.com/p/lets-learn-sql-window-functions)
+    >*nice summary of window function's by Madison Mae (+with examples)*
+
+- [[Video] Lead and Lag functions in SQL Server 2012](https://www.youtube.com/watch?v=l_Zn5sdkamM&ab_channel=kudvenkat)
+    >*excellent overview of these two functions (should generalize to other SQL dialects)*
+    SUMMARY:
+        - LEAD function used to access subsequent row of data along w/current row of data.
+        - LAG function used to access previous row of data along w/current row of data.
+        - ORDER BY clase is required.
+        - PARTITION BY clause is optional
+        
+    
+
+
 #### SQL | Joining Tables (call this Combining Tables/Data instead?)
 
 - [An Introduction to Using SQL Aggregate Functions with JOINs](https://learnsql.com/blog/introduction-using-aggregate-functions-joins/)
@@ -91,6 +113,7 @@
         - *WHERE conditions are applied **after** the JOIN*
         - *conditions (for filtering) applied in the JOIN predicate are 
         applied **before** the join*
+
 
 #### SQL | Training
 - [learnsql.com | Learn & Practice SQL](https://learnsql.com/)
@@ -104,16 +127,23 @@
 
 #### SQL | Interviewing
 - [Top Skills to Ace Every SQL Interview Question](https://medium.com/towards-data-science/top-skills-to-ace-every-sql-interview-question-33356b08845a)
-    >***Madison Schott:** "Once you nail a few key concepts you can pretty much answer any question, with lots of practice that is. Start with the basics for each of these concepts and work your way up to more difficult problems."*
+    >***Madison Schott:** *"Once you nail a few key concepts you can pretty much answer any question, with lots of practice that is. Start with the basics for each of these concepts and work your way up to more difficult problems."*
         1) Master Joins;
         2) Master Aggregate Functions;
         3) Master Subqueries.
+- [How to learn SQL for data science interview (the minimize effort maximize outcome way)](https://www.youtube.com/watch?v=vaD3ZFFNwhM&ab_channel=TinaHuang)
+    >*scientifically-backed study plan to learn SQL most efficiently with the least amount of time and effort*
 - [Analyzing 89 Responses to a SQL Screener Question for a Senior Data Analyst Position](https://mattmazur.com/2018/11/12/analyzing-89-responses-to-a-sql-screener-question-for-a-senior-data-analyst-position/comment-page-1/?unapproved=55959&moderation-hash=65cb4dbf0ddf1d2f87c78641dbcc59f7#comment-55959)
     >*Matt Mazur's analysis of candidate responses to a SQL Screener Question that was designed to weed out weaker candidates*
 - [31 SQL Questions for Data Analysts [Updated for 2022]](https://www.interviewquery.com/p/sql-questions-data-analyst)
 - [How to learn SQL for data science interview (the minimize effort maximize outcome way)](https://www.youtube.com/watch?v=vaD3ZFFNwhM&ab_channel=TinaHuang)
+- [Three Tricky Analytics Interview Questions with Andrew](https://www.youtube.com/watch?v=uLCFCzVLi4Q&ab_channel=DataScienceJay)
+
+   >*We tackle three analytics interview questions by solving them with SQL. Each one is progressively harder and Andrew explains his methodology towards solving each question!*
+
+
 - [SQL Sundays (YouTube)](https://www.youtube.com/playlist?list=PLVD3APpfd1tuXrXBWAntLx4tNaONro5dA)
-    > *Real data science SQL interview question walk through with a FAANG data scientist.*
+    > *9 Mock Interview videos with 9 different SQL problems*
 
 - [Frequently Asked Questions About SQL](https://learnsql.com/blog/frequently-asked-questions-about-sql/)
     >*Not my favorite article BUT has a solid list of topics AND also some great links to other resources. Keeping in the library for now...*
@@ -146,6 +176,8 @@
 ## Version Control
 
 #### Git
+- [Introduction to Git](https://www.datacamp.com/courses/introduction-to-git)
+    >*Course recommended by Madison Schott*
 - [Git Immersion](https://gitimmersion.com/index.html)
     > *A guided tour that walks through the fundamentals of Git, inspired by the premise that to know a thing is to do it.*
 - [How to Write a Git Commit Message](https://cbea.ms/git-commit/)
@@ -187,3 +219,9 @@
 - [Claire Carroll](https://clrcrl.com/)
 - [Madison Schott](https://madisonmae.substack.com/)
 - [Parker Tenpas](https://pdtenpas.github.io/)
+
+
+## Non-AE
+
+- [When Subtraction Adds Value](https://hbr.org/2022/02/when-subtraction-adds-value)
+    >*interesting take on how to think about subtracting work instead of adding work when involved in Decision Making and Problem Solving.*
