@@ -33,6 +33,14 @@
 #### AE | General
 - [Aspiring Analytics Engineers, Start Here](https://madisonmae.substack.com/p/aspiring-analytics-engineers-start)
 
+#### AE | Books Related to AE
+
+- [The Analytics Setup Guidebook (currently reading)](https://www.holistics.io/books/setup-analytics/)
+    >*the awesome people at Holistics put together a **free** 187 page guide designed to: "Restructure your knowledge of the complex data analytics landscape, and learn how to build scalable analytics & BI stacks in the modern cloud era."*
+
+- [The Data Warehouse Toolkit, 3rd Edition](https://www.kimballgroup.com/data-warehouse-business-intelligence-resources/books/data-warehouse-dw-toolkit/)
+    >*the definitive guide to dimensional modeling*
+
 #### AE | Blogs
 - [Learn Analytics Enginneering](https://madisonmae.substack.com/archive?sort=new)
 
