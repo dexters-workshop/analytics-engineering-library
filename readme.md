@@ -7,7 +7,7 @@
 - [SQL](#sql)
 - [Data Modeling](#data-modeling)
 - [Version Control](#version-control)
-- [Style Guides](#style-guides)
+- [Style Guides](#style-guides)`
 - [Markdown](#markdown)
 - [Visual Studio Code](#visual-studio-code)
 - [Blogs, etc.](#blogs-etc)
@@ -36,6 +36,15 @@
 #### AE | Blogs
 - [Learn Analytics Enginneering](https://madisonmae.substack.com/archive?sort=new)
 
+- [dbt Developer Blog](https://docs.getdbt.com/blog)
+    >*Technical tutorials from the dbt Community.*
+
+#### AE Experts
+- [Claire Carroll](https://clrcrl.com/)
+- [Madison Schott](https://madisonmae.substack.com/)
+- [Parker Tenpas](https://pdtenpas.github.io/)
+
+
 
 
 <br>
@@ -60,6 +69,11 @@
 
 - [What is the difference between HAVING and WHERE clause?](https://afteracademy.com/blog/what-is-the-difference-between-having-and-where-clause)
     >*Not the best article BUT I do like this clarifying statement: If **GROUP BY** is used then it is **executed after the WHERE clause** is executed in the query. It means it selects the rows before grouping is done or aggregate calculations are performed. That's why, the WHERE clause is also called **Pre-filter.** But, **GROUP BY is executed before the execution of the HAVING clause.** It means it selects the rows after aggregate calculations are performed. That's why, the HAVING clause is also called as **Post-filter.***
+
+
+#### SQL | Grouping Data
+
+- [Write better SQL: In defense of group by 1](https://www.getdbt.com/blog/write-better-sql-a-defense-of-group-by-1/)
 
 
 #### SQL | General Functions
@@ -109,7 +123,7 @@
     
 
 
-#### SQL | Joining Tables (call this Combining Tables/Data instead?)
+#### SQL | Assembling Data (Join/Union/Except/Etc.)
 
 - [An Introduction to Using SQL Aggregate Functions with JOINs](https://learnsql.com/blog/introduction-using-aggregate-functions-joins/)
     >*Key Insight(s): using conditions in the JOIN predicate (after the ON) is not the same as filtering in the WHERE (or using HAVING). These can create subtle (or not so subtle) differences in your summarized data, which could result in hard-to-spot errors.*
@@ -217,11 +231,6 @@
 - [Locally Optimistic](https://locallyoptimistic.com/)
 - [Modern SQL - A Lot has Changed Since SQL - 92](https://modern-sql.com/concept/three-valued-logic)
 
-
-## AE Experts
-- [Claire Carroll](https://clrcrl.com/)
-- [Madison Schott](https://madisonmae.substack.com/)
-- [Parker Tenpas](https://pdtenpas.github.io/)
 
 
 ## Non-AE
