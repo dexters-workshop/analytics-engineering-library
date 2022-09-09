@@ -54,7 +54,6 @@
 
 
 
-
 <br>
 
 ## SQL
@@ -70,13 +69,31 @@
 - [SQL Fiddle](http://sqlfiddle.com/about.html)
     >*A tool for easy online testing and sharing of database problems and their solutions.*
 
+
 #### SQL | Filtering Data
 
 - [HAVING vs. WHERE in SQL: What You Should Know](https://learnsql.com/blog/sql-having-vs-where/)
-    >*In simple words, the WHERE and HAVING clauses **act as filters;** they remove records or data that don’t meet certain criteria from the final result of a query. However, they are **applied to different sets of data.** That’s the important point to understand about WHERE vs. HAVING: **WHERE filters at the record level,** while **HAVING filters at the "group of records" level.*** 🔥
+    >*"In simple words, the WHERE and HAVING clauses **act as filters;** they remove records or data that don’t meet certain criteria from the final result of a query. However, they are **applied to different sets of data.** That’s the important point to understand about WHERE vs. HAVING: **WHERE filters at the record level,** while **HAVING filters at the "group of records" level."*** 🔥
 
 - [What is the difference between HAVING and WHERE clause?](https://afteracademy.com/blog/what-is-the-difference-between-having-and-where-clause)
-    >*Not the best article BUT I do like this clarifying statement: If **GROUP BY** is used then it is **executed after the WHERE clause** is executed in the query. It means it selects the rows before grouping is done or aggregate calculations are performed. That's why, the WHERE clause is also called **Pre-filter.** But, **GROUP BY is executed before the execution of the HAVING clause.** It means it selects the rows after aggregate calculations are performed. That's why, the HAVING clause is also called as **Post-filter.***
+    >*Not the best article BUT I do like this clarifying statement: "If **GROUP BY** is used then it is **executed after the WHERE clause** is executed in the query. It means it selects the rows before grouping is done or aggregate calculations are performed. That's why, the WHERE clause is also called **Pre-filter.** But, **GROUP BY is executed before the execution of the HAVING clause.** It means it selects the rows after aggregate calculations are performed. That's why, the HAVING clause is also called as **Post-filter**."*
+
+
+    #### SQL | Assembling Data (Join/Union/Except/Etc.)
+
+- [SQL Joins Using WHERE or ON](https://mode.com/sql-tutorial/sql-joins-where-vs-on/)
+    >*Has a good illustration of filtering data prior to joining tables.*
+
+- [Difference between WHERE and ON in SQL](https://dataschool.com/how-to-teach-people-sql/difference-between-where-and-on-in-sql/)
+    >*Makes the case that the WHERE clause and the ON clause should ONLY be used for there intended purposes, to filter and to join data, respectively. The author says this in the intro: "ON should be used to define the join condition and WHERE should be used to filter the data. I used the word should because this is not a hard rule. The splitting of these purposes with their respective clauses makes the query the most readable". **I 100% Agree!!! Prioritizing readability is key 🔑***
+
+- [An Introduction to Using SQL Aggregate Functions with JOINs](https://learnsql.com/blog/introduction-using-aggregate-functions-joins/)
+    >*Key Insight(s): using conditions in the JOIN predicate (after the ON) is not the same as filtering in the WHERE (or using HAVING). These can create subtle (or not so subtle) differences in your summarized data, which could result in hard-to-spot errors.*
+        - *WHERE conditions are applied **after** the JOIN*
+        - *conditions (for filtering) applied in the JOIN predicate are 
+        applied **before** the join*
+
+
 
 
 #### SQL | Grouping Data
@@ -131,13 +148,7 @@
     
 
 
-#### SQL | Assembling Data (Join/Union/Except/Etc.)
 
-- [An Introduction to Using SQL Aggregate Functions with JOINs](https://learnsql.com/blog/introduction-using-aggregate-functions-joins/)
-    >*Key Insight(s): using conditions in the JOIN predicate (after the ON) is not the same as filtering in the WHERE (or using HAVING). These can create subtle (or not so subtle) differences in your summarized data, which could result in hard-to-spot errors.*
-        - *WHERE conditions are applied **after** the JOIN*
-        - *conditions (for filtering) applied in the JOIN predicate are 
-        applied **before** the join*
 
 
 #### SQL | Training
