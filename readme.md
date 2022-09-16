@@ -79,13 +79,14 @@
     >*Not the best article BUT I do like this clarifying statement: "If **GROUP BY** is used then it is **executed after the WHERE clause** is executed in the query. It means it selects the rows before grouping is done or aggregate calculations are performed. That's why, the WHERE clause is also called **Pre-filter.** But, **GROUP BY is executed before the execution of the HAVING clause.** It means it selects the rows after aggregate calculations are performed. That's why, the HAVING clause is also called as **Post-filter**."*
 
 
-    #### SQL | Assembling Data (Join/Union/Except/Etc.)
+#### SQL | Assembling Data (Join/Union/Except/Etc.)
 
 - [The problem of SQL fanouts](https://community.looker.com/technical-tips-tricks-1021/the-problem-of-sql-fanouts-30232)
     >*fanouts happen when joining tables having a one-to-many relationship; the primary table (left) is joined to the secondary table (right) and the result ends up having more rows than the left table began with.* this situation can cause errors when applying aggregate functions afterwards.  **three things to note:**
-    **"no fanout:** you can trust aggregate functions on your primary table but not necessarily on your joined tables"
-    **"fanout:** you cannot necessarily trust aggregate functions on either your primary table or your joined tables"
-    **"help avoid fanouts (protip):** begin your joins with the most granular table"
+    
+    1) **"no fanout:** you can trust aggregate functions on your primary table but not necessarily on your joined tables"
+    2) **"fanout:** you cannot necessarily trust aggregate functions on either your primary table or your joined tables"
+    3) **"help avoid fanouts (protip):** begin your joins with the most granular table"
 
 - [SQL Joins Using WHERE or ON](https://mode.com/sql-tutorial/sql-joins-where-vs-on/)
     >*Has a good illustration of filtering data prior to joining tables.*
