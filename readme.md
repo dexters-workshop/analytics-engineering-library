@@ -83,8 +83,8 @@
 
 - [The problem of SQL fanouts](https://community.looker.com/technical-tips-tricks-1021/the-problem-of-sql-fanouts-30232)
     >*fanouts happen when joining tables having a one-to-many relationship; the primary table (left) is joined to the secondary table (right) and the result ends up having more rows than the left table began with.* this situation can cause errors when applying aggregate functions afterwards.  **three things to note:**
-    > - **"no fanout:** you can trust aggregate functions on your primary table but not necessarily on your joined tables"
-    > - **"fanout:** you cannot necessarily trust aggregate functions on either your primary table or your joined tables"
+    > - **"no-fanout (one-to-one OR many-to-one):** you can trust aggregate functions on your primary table but not necessarily on your joined tables"
+    > - **"fanout (one-to-many):** you cannot necessarily trust aggregate functions on either your primary table or your joined tables"
     > - **"help avoid fanouts (protip):** begin your joins with the most granular table (many-to-one)"
 
 - [SQL Joins Using WHERE or ON](https://mode.com/sql-tutorial/sql-joins-where-vs-on/)
