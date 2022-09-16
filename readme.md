@@ -81,11 +81,17 @@
 
     #### SQL | Assembling Data (Join/Union/Except/Etc.)
 
+- [The problem of SQL fanouts](https://community.looker.com/technical-tips-tricks-1021/the-problem-of-sql-fanouts-30232)
+    >*fanouts happen when joining tables having a one-to-many relationship; the primary table (left) is joined to the secondary table (right) and the result ends up having more rows than the left table began with.* this situation can cause errors when applying aggregate functions afterwards.  **three things to note:**
+    **"no fanout:** you can trust aggregate functions on your primary table but not necessarily on your joined tables"
+    **"fanout:** you cannot necessarily trust aggregate functions on either your primary table or your joined tables"
+    **"help avoid fanouts (protip):** begin your joins with the most granular table"
+
 - [SQL Joins Using WHERE or ON](https://mode.com/sql-tutorial/sql-joins-where-vs-on/)
     >*Has a good illustration of filtering data prior to joining tables.*
 
 - [Difference between WHERE and ON in SQL](https://dataschool.com/how-to-teach-people-sql/difference-between-where-and-on-in-sql/)
-    >*Makes the case that the WHERE clause and the ON clause should ONLY be used for there intended purposes, to filter and to join data, respectively. The author says this in the intro: "ON should be used to define the join condition and WHERE should be used to filter the data. I used the word should because this is not a hard rule. The splitting of these purposes with their respective clauses makes the query the most readable". **I 100% Agree!!! Prioritizing readability is key 🔑***
+    >*Makes the case that the WHERE clause and the ON clause should ONLY be used for there intended purposes, to filter and to join data, respectively. The author says this in the intro: "ON should be used to define the join condition and WHERE should be used to filter the data. I used the word should because this is not a hard rule. The splitting of these purposes with their respective clauses makes the query the most readable". **100% Agree!!! Prioritizing readability is key 🔑***
 
 - [An Introduction to Using SQL Aggregate Functions with JOINs](https://learnsql.com/blog/introduction-using-aggregate-functions-joins/)
     >*Key Insight(s): using conditions in the JOIN predicate (after the ON) is not the same as filtering in the WHERE (or using HAVING). These can create subtle (or not so subtle) differences in your summarized data, which could result in hard-to-spot errors.*
@@ -152,6 +158,7 @@
 
 
 #### SQL | Training
+
 - [learnsql.com | Learn & Practice SQL](https://learnsql.com/)
     >*one of my favorite online platforms for learning/practicing SQL*
 - [learnsql.com | SQL Joins](https://learnsql.com/course/joins)
