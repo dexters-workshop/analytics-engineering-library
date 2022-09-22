@@ -4,6 +4,7 @@
 ## Sections
 - [To Read, To Process](#to-read-to-process)
 - [Analytics Engineering](#analytics-engineering)
+- [dbt](#dbt)
 - [SQL](#sql)
 - [Data Modeling](#data-modeling)
 - [Version Control](#version-control)
@@ -51,10 +52,21 @@
 
 #### AE Experts
 - [Claire Carroll](https://clrcrl.com/)
+- [Dave Connors](https://docs.getdbt.com/author/dave_connors)
+    >*dave is interesting b/c he has worked in the consulting wing of dbt labs where he and his colleagues work on an unusually high number of dbt-projects. he has great content on understanding what a 'good' and 'mature' dbt project looks like and each of the milestones to hit along the way.*
 - [Madison Schott](https://madisonmae.substack.com/)
 - [Parker Tenpas](https://pdtenpas.github.io/)
 
 
+<br>
+
+## dbt
+
+
+#### dbt | Project Setup
+
+- [How to build a mature dbt project from scratch](https://www.getdbt.com/coalesce-2021/how-to-build-a-mature-dbt-project-from-scratch/)
+    >*dave connors from dbt gives a presentation on how to build a dbt-project from the ground up.*
 
 <br>
 
