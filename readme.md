@@ -20,7 +20,6 @@
 
 ## To Read, To Process (section now in google doc)
 - [What is Operational Analytics (and how is it changing how we work with data)?](https://www.getcensus.com/blog/what-is-operational-analytics)
-- [Learning SQL 201: Optimizing Queries, Regardless of Platform](https://towardsdatascience.com/learning-sql-201-optimizing-queries-regardless-of-platform-918a3af9c8b1)
 - [SQL: Don't Do This](https://wiki.postgresql.org/wiki/Don%27t_Do_This)
 - [An Opinionated Introduction to Data Warehouse Query Strategies, Part 1 of N](https://calogica.com/sql/2018/06/22/data-warehouse-query-strategies.html)
 - [SQL Window Functions to Pass a Data Analytics Interview (Opinionated SQL Series Part 2/N)](https://calogica.com/sql/2018/07/01/sql-functions-for-data-analyst-interviews.html)
@@ -32,6 +31,9 @@
 
 #### AE | General
 - [Aspiring Analytics Engineers, Start Here](https://madisonmae.substack.com/p/aspiring-analytics-engineers-start)
+
+- [What Companies REALLY Want in an Analytics Engineer](https://medium.com/geekculture/what-companies-really-want-in-an-analytics-engineer-1ac03ff4494a)
+    >*author: madison schott. excellent article outlining where AEs should be spending their time when learning where to focus efforts (skills/tools) and how to land jobs and how to be effective as an AE.*
 
 #### AE | Books Related to AE
 
