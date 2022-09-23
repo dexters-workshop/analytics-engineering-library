@@ -63,6 +63,14 @@
 ## dbt
 
 
+#### dbt | General
+
+- [Never used dbt? Here’s how it can change your data game](https://www.getcensus.com/blog/never-used-dbt)
+     >- ***great explanation:** dbt is a data transformation tool that leverages the power of SQL and Jinja to write modular data models within your data warehouse. It reads from the data within your data warehouse and writes to it without ever leaving, allowing you to test and document your code and promoting proper code maintenance along the way.*
+    >- *dbt is an open-source tool that is completely free to use*
+    >- *implementing dbt is nearly risk-free since it lives entirely in your data warehouse. It reads from your data warehouse and writes to it. In fact, dbt puts the T in ETL/ELT.*
+
+
 #### dbt | Project Setup
 
 - [How to build a mature dbt project from scratch](https://www.getdbt.com/coalesce-2021/how-to-build-a-mature-dbt-project-from-scratch/)
