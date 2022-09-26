@@ -70,11 +70,24 @@
     >- *dbt is an open-source tool that is completely free to use*
     >- *implementing dbt is nearly risk-free since it lives entirely in your data warehouse. It reads from your data warehouse and writes to it. In fact, dbt puts the T in ETL/ELT.*
 
+#### dbt | Best Practices
+
+- [Best practice guides](https://docs.getdbt.com/guides/best-practices)
+    >*Learn how dbt Labs approaches building projects through our current viewpoints on structure, style, and setup.*
+
 
 #### dbt | Project Setup
 
 - [How to build a mature dbt project from scratch](https://www.getdbt.com/coalesce-2021/how-to-build-a-mature-dbt-project-from-scratch/)
     >*dave connors from dbt gives a presentation on how to build a dbt-project from the ground up.*
+
+
+#### dbt | dbt certification
+
+- [dbt Analytics Engineering Certification Exam](https://www.getdbt.com/certifications/analytics-engineer-certification-exam/)
+    >*page to register for exam. very useful page b/c it has exam prep material: a) what's covered section; b) link to sample-questions; & c) link to a study-guide*
+
+
 
 <br>
 
@@ -215,6 +228,13 @@
 #### SQL | Experts
 - [Tihomir Babic, Technical Writer for LearnSQL.com](https://learnsql.com/authors/tihomir-babic/)
 
+
+#### SQL | Never Know, Might Need It
+
+- [SQL Delete Join](https://www.educba.com/sql-delete-join/?source=leftnav)
+    >*an advanced method for using the delete command came up in a leetcode problem. this article illustrates the 'sql-delete-join' - may not need this in AE but thought it was interesting so hanging on to it for now*
+
+
 ---
 
 
@@ -273,6 +293,7 @@
 ## Blogs, etc.
 - [Locally Optimistic](https://locallyoptimistic.com/)
 - [Modern SQL - A Lot has Changed Since SQL - 92](https://modern-sql.com/concept/three-valued-logic)
+- [Kahan Data Solutions](https://www.kahandatasolutions.com/blog)
 
 
 
