@@ -4,6 +4,7 @@
 ## Sections
 - [To Read, To Process](#to-read-to-process)
 - [Analytics Engineering](#analytics-engineering)
+- [Command Line Interface (CLI)](#command-line-interface-cli)
 - [dbt](#dbt)
 - [SQL](#sql)
 - [Data Modeling](#data-modeling)
@@ -29,6 +30,11 @@
 ---
 
 ## Analytics Engineering (AE)
+
+#### AE | What do AEs do?
+>Some points from the co:rise AE with dbt Course:
+>- *"While Data Analysts spend the majority of their time analyzing data, Analytics Engineers spend their time **transforming, testing, deploying, and documenting data."***
+>- *"AEs review code like software engineers and learn **coding best-practices like making their code readable and modular"***
 
 #### AE | General
 - [Aspiring Analytics Engineers, Start Here](https://madisonmae.substack.com/p/aspiring-analytics-engineers-start)
@@ -60,6 +66,14 @@
 
 <br>
 
+## Command Line Interface (CLI)
+
+- [Basics of BASH for Beginners](https://towardsdatascience.com/basics-of-bash-for-beginners-92e53a4c117a)
+    >*suggested reading in the AE w/dbt course and a great overview to "learn about some of the most useful BASH commands and the utility they offer".*
+
+
+<br>
+
 ## dbt
 
 
@@ -69,6 +83,11 @@
      >- ***great explanation:** dbt is a data transformation tool that leverages the power of SQL and Jinja to write modular data models within your data warehouse. It reads from the data within your data warehouse and writes to it without ever leaving, allowing you to test and document your code and promoting proper code maintenance along the way.*
     >- *dbt is an open-source tool that is completely free to use*
     >- *implementing dbt is nearly risk-free since it lives entirely in your data warehouse. It reads from your data warehouse and writes to it. In fact, dbt puts the T in ETL/ELT.*
+
+#### dbt | Getting Help
+
+- [dbt discourse](https://discourse.getdbt.com/)
+    >**dbt hosted site for getting support with all things dbt (help, show/tell, discussion, etc.)*
 
 #### dbt | Best Practices
 
