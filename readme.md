@@ -3,13 +3,13 @@
 
 ## Sections
 - [To Read, To Process](#to-read-to-process)
+- [Style Guides](#style-guides)
 - [Analytics Engineering](#analytics-engineering)
 - [Command Line Interface (CLI)](#command-line-interface-cli)
 - [dbt](#dbt)
 - [SQL](#sql)
 - [Data Modeling](#data-modeling)
 - [Version Control](#version-control)
-- [Style Guides](#style-guides)`
 - [Markdown](#markdown)
 - [Visual Studio Code](#visual-studio-code)
 - [Blogs, etc.](#blogs-etc)
@@ -28,6 +28,17 @@
 - [SQL Tutorial](https://www.geeksforgeeks.org/sql-tutorial/)
 
 ---
+
+## Style Guides
+
+- [3 things to include in any SQL style guide](https://www.kahandatasolutions.com/blog/3%20things%20to%20include%20in%20any%20style%20guide)
+- [Gitlab SQL Style Guide](https://about.gitlab.com/handbook/business-technology/data-team/platform/sql-style-guide/)
+- [Mazur's SQL Style Guide](https://github.com/mattm/sql-style-guide)
+- [Kickstarter SQL Style Guide](https://gist.github.com/fredbenenson/7bb92718e19138c20591)
+- [dbt Style Guide](https://github.com/dbt-labs/corp/blob/main/dbt_style_guide.md)
+
+
+<br>
 
 ## Analytics Engineering (AE)
 
@@ -95,7 +106,19 @@
     >*Learn how dbt Labs approaches building projects through our current viewpoints on structure, style, and setup.*
 
 
-#### dbt | Project Setup
+#### dbt | dbt Project Setup
+
+- [Overview of building a dbt project](https://docs.getdbt.com/docs/building-a-dbt-project/projects)
+    >*root of dbt-docs that outlines how to get up and running with dbt Cloud and dbt CLI*
+
+- [Getting started with dbt Core](https://docs.getdbt.com/guides/getting-started/learning-more/getting-started-dbt-core)
+    >*dbt-doc(s) with really awesome walk through of setting up a dbt-project using dbt CLI.*
+    > - *very thorough documentation/tutorial on getting a dbt-project up and running start/finish*
+    > - *has link(s) to a really thorough example of seting up and loading data from Google BigQuery. also, has examples for databricks, redshift, snowflake*
+    > - has awesome FAQs sections with loads of pro-tips
+
+- [Configuring your profile.yml](https://docs.getdbt.com/dbt-cli/configure-your-profile)
+    >*awesome dbt-doc(s) w/ALL the details needed to properly setup the **profile.yml** file. includes a reference link to a doc w/ALL warehouses that dbt can connect to and how to setup profile.yml files for each.*
 
 - [How to build a mature dbt project from scratch](https://www.getdbt.com/coalesce-2021/how-to-build-a-mature-dbt-project-from-scratch/)
     >*dave connors from dbt gives a presentation on how to build a dbt-project from the ground up.*
@@ -287,13 +310,7 @@
     > *A guide for astronauts (now, programmers using Git) about what to do when things go wrong.*
 
 
----
-
-## Style Guides:
-- [Gitlab SQL Style Guide](https://about.gitlab.com/handbook/business-technology/data-team/platform/sql-style-guide/)
-- [Mazur's SQL Style Guide](https://github.com/mattm/sql-style-guide)
-- [Kickstarter SQL Style Guide](https://gist.github.com/fredbenenson/7bb92718e19138c20591)
-- [dbt Style Guide](https://github.com/dbt-labs/corp/blob/main/dbt_style_guide.md)
+<br>
 
 
 ## Markdown
