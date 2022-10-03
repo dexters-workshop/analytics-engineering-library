@@ -23,6 +23,14 @@
 ---
 
 ## To Read, To Process
+- [What is dbt?](https://docs.getdbt.com/docs/introduction)
+- [What, exactly, is dbt?](https://www.getdbt.com/blog/what-exactly-is-dbt/)
+- [The dbt Viewpoint](https://docs.getdbt.com/docs/about/viewpoint)
+- [Using dbt & Snowflake shares](https://discourse.getdbt.com/t/using-dbt-snowflake-shares/1110)
+- [Using dbt artifacts to track project performance](https://discourse.getdbt.com/t/using-dbt-artifacts-to-track-project-performance/1873)
+
+- [Data Scientist or Analytics Engineer: How I Made the Decision That Defined My Career](https://jasnonaz.medium.com/data-scientist-or-analytics-engineer-how-i-made-the-decision-that-defined-my-career-1646d4296467)
+- [How to start your analytics engineering team](https://www.getdbt.com/coalesce-2020/how-to-start-your-analytics-engineering-team/)
 - [What is Operational Analytics (and how is it changing how we work with data)?](https://www.getcensus.com/blog/what-is-operational-analytics)
 - [SQL: Don't Do This](https://wiki.postgresql.org/wiki/Don%27t_Do_This)
 - [An Opinionated Introduction to Data Warehouse Query Strategies, Part 1 of N](https://calogica.com/sql/2018/06/22/data-warehouse-query-strategies.html)
@@ -35,21 +43,35 @@
 ## Modern Data Stack (MDS)
 >*the modern data stack is a combination of data tools used for the lifecycle of data management: data ingestion, data storage, data transformation, and data visualization - **from AE with dbt course***
 
-- [What is the modern data stack?](https://www.fivetran.com/blog/what-is-the-modern-data-stack)
+- [What is the modern data stack? (by Charles Wang)](https://www.fivetran.com/blog/what-is-the-modern-data-stack)
     >*Keypoints:*
         >- *the modern data stack (MDS) is a suite of tools used for data integration*
         >- *radically new approach to data integration saves engineering time, allowing engineers and analysts to pursue higher-value activities*
         >- *most important difference between a modern data stack and a legacy data stack is that the modern data stack is hosted in the cloud and requires little technical configuration by the user*
         >- *low and declining costs of cloud computing and storage continue to increase the cost savings of a modern data stack compared with on-premise solutions*
 
+- [The Modern Data Stack: Past, Present, and Future](https://www.getdbt.com/blog/future-of-the-modern-data-stack/)
+    >*"my thoughts on where our space has been and where it might be going." **- tristan handy***
+
+
 <br>
 
 ## Analytics Engineering (AE)
 
-#### AE | What do AEs do?
+#### AE | What is AE and what do AEs do?
 >Some points from the co:rise AE with dbt Course:
 >- *"While Data Analysts spend the majority of their time analyzing data, Analytics Engineers spend their time **transforming, testing, deploying, and documenting data."***
 >- *"AEs review code like software engineers and learn **coding best-practices like making their code readable and modular"***
+
+- [The Analytics Engineering Guide](https://www.getdbt.com/analytics-engineering/)
+
+- [What is analytics engineering?](https://www.getdbt.com/what-is-analytics-engineering/)
+
+- [Analytics Engineering Everywhere (by Jason Ganz)](https://jasnonaz.medium.com/analytics-engineering-everywhere-d56f363da625)
+    >- *"if it feels like we’re at a real inflection point for Analytics Engineering — it’s because we are.*"
+    >- *"what was very recently the domain **[AE]** of a few adventurous data teams is quickly becoming industry standard for tech organization — and there’s every reason to think that other types of organizations will be following along shortly. **the impact is just too high."***
+    - *"right now (may 2021) analytics engineering is still a new discipline — pretty soon it will be everywhere."*
+
 
 #### AE | General
 - [Aspiring Analytics Engineers, Start Here](https://madisonmae.substack.com/p/aspiring-analytics-engineers-start)
@@ -103,6 +125,9 @@
 <br>
 
 ## dbt
+
+>*Nice definition/overview of dbt from AE with dbt course:*
+> - *"what is dbt? dbt (data build tool) is an open source python framework and CLI tool for compiling SQL queries into full data model DAGs that can be deployed against a warehouse. dbt is agnostic about the warehouse it is connecting to. dbt does the “T” in Extract Load Transform. It transforms the data you’ve brought into your data warehouse."*
 
 
 #### dbt | General
@@ -353,6 +378,7 @@
 
 
 ## Blogs, etc.
+- [Learn Analytics Engineering](https://madisonmae.substack.com/)
 - [Locally Optimistic](https://locallyoptimistic.com/)
 - [Modern SQL - A Lot has Changed Since SQL - 92](https://modern-sql.com/concept/three-valued-logic)
 - [Kahan Data Solutions](https://www.kahandatasolutions.com/blog)
