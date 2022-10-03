@@ -3,8 +3,9 @@
 
 ## Sections
 - [To Read, To Process](#to-read-to-process)
-- [Style Guides](#style-guides)
+- [Modern Data Stack (MDS)](#modern-data-stack-mds)
 - [Analytics Engineering](#analytics-engineering)
+- [Style Guides](#style-guides)
 - [Command Line Interface (CLI)](#command-line-interface-cli)
 - [dbt](#dbt)
 - [SQL](#sql)
@@ -15,28 +16,31 @@
 - [Blogs, etc.](#blogs-etc)
 - [AE Experts](#ae-experts)
 - [Non-AE Aritcles](#non-ae)
+- [Cool But Not Sure Where it Goes](#cool-but-not-sure-where-it-goes)
 
 <br>
 
 ---
 
-## To Read, To Process (section now in google doc)
+## To Read, To Process
 - [What is Operational Analytics (and how is it changing how we work with data)?](https://www.getcensus.com/blog/what-is-operational-analytics)
 - [SQL: Don't Do This](https://wiki.postgresql.org/wiki/Don%27t_Do_This)
 - [An Opinionated Introduction to Data Warehouse Query Strategies, Part 1 of N](https://calogica.com/sql/2018/06/22/data-warehouse-query-strategies.html)
 - [SQL Window Functions to Pass a Data Analytics Interview (Opinionated SQL Series Part 2/N)](https://calogica.com/sql/2018/07/01/sql-functions-for-data-analyst-interviews.html)
 - [SQL Tutorial](https://www.geeksforgeeks.org/sql-tutorial/)
 
----
 
-## Style Guides
+<br>
 
-- [3 things to include in any SQL style guide](https://www.kahandatasolutions.com/blog/3%20things%20to%20include%20in%20any%20style%20guide)
-- [Gitlab SQL Style Guide](https://about.gitlab.com/handbook/business-technology/data-team/platform/sql-style-guide/)
-- [Mazur's SQL Style Guide](https://github.com/mattm/sql-style-guide)
-- [Kickstarter SQL Style Guide](https://gist.github.com/fredbenenson/7bb92718e19138c20591)
-- [dbt Style Guide](https://github.com/dbt-labs/corp/blob/main/dbt_style_guide.md)
+## Modern Data Stack (MDS)
+>*the modern data stack is a combination of data tools used for the lifecycle of data management: data ingestion, data storage, data transformation, and data visualization - **from AE with dbt course***
 
+- [What is the modern data stack?](https://www.fivetran.com/blog/what-is-the-modern-data-stack)
+    >*Keypoints:*
+        >- *the modern data stack (MDS) is a suite of tools used for data integration*
+        >- *radically new approach to data integration saves engineering time, allowing engineers and analysts to pursue higher-value activities*
+        >- *most important difference between a modern data stack and a legacy data stack is that the modern data stack is hosted in the cloud and requires little technical configuration by the user*
+        >- *low and declining costs of cloud computing and storage continue to increase the cost savings of a modern data stack compared with on-premise solutions*
 
 <br>
 
@@ -77,7 +81,20 @@
 
 <br>
 
+## Style Guides
+
+- [3 things to include in any SQL style guide](https://www.kahandatasolutions.com/blog/3%20things%20to%20include%20in%20any%20style%20guide)
+- [Gitlab SQL Style Guide](https://about.gitlab.com/handbook/business-technology/data-team/platform/sql-style-guide/)
+- [Mazur's SQL Style Guide](https://github.com/mattm/sql-style-guide)
+- [Kickstarter SQL Style Guide](https://gist.github.com/fredbenenson/7bb92718e19138c20591)
+- [dbt Style Guide](https://github.com/dbt-labs/corp/blob/main/dbt_style_guide.md)
+
+
+<br>
+
 ## Command Line Interface (CLI)
+
+- [The Linux command line for beginners](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview)
 
 - [Basics of BASH for Beginners](https://towardsdatascience.com/basics-of-bash-for-beginners-92e53a4c117a)
     >*suggested reading in the AE w/dbt course and a great overview to "learn about some of the most useful BASH commands and the utility they offer".*
@@ -298,6 +315,15 @@
 ## Version Control
 
 #### Git
+- [An Intro to Git and GitHub for Beginners (Tutorial)](https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners)
+    >*recommended in AE with dbt course. went through it, pretty solid.*
+
+- [Git Cheat Sheet](https://training.github.com/downloads/github-git-cheat-sheet.pdf)
+    >*really nice no BS cheat sheet*
+
+- [Learn Git Branching](https://learngitbranching.js.org/)
+    >*from the creators: "Learn Git Branching" is the most visual and interactive way to learn Git on the web; you'll be challenged with exciting levels, given step-by-step demonstrations of powerful features, and maybe even have a bit of fun along the way.*    
+
 - [Introduction to Git](https://www.datacamp.com/courses/introduction-to-git)
     >*Course recommended by Madison Schott*
 - [Git Immersion](https://gitimmersion.com/index.html)
@@ -316,14 +342,14 @@
 ## Markdown
 - [Introduction to Markdown in Visual Studio Code (with Markdown worksheet!)](https://www.youtube.com/watch?v=pTCROLZLhDM)
 
+<br>
 
 ## Visual Studio Code
 - Shortcuts:
     - Open Preview: `CMD + K then V` (splits screen) OR `CMD + Shift + V`
 
 
-## To Be Organized
-- [Github: Start History Charts](https://star-history.com/#sqlfluff/sqlfluff&business-science/tidyquant&Date)
+<br>
 
 
 ## Blogs, etc.
@@ -332,8 +358,15 @@
 - [Kahan Data Solutions](https://www.kahandatasolutions.com/blog)
 
 
+<br>
 
 ## Non-AE
 
 - [When Subtraction Adds Value](https://hbr.org/2022/02/when-subtraction-adds-value)
     >*interesting take on how to think about subtracting work instead of adding work when involved in Decision Making and Problem Solving.*
+
+
+<br>
+
+## Cool But Not Sure Where it Goes
+- [Github: Star History Charts](https://star-history.com/#sqlfluff/sqlfluff&Date)
