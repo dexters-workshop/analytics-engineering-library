@@ -396,3 +396,5 @@
 
 ## Cool But Not Sure Where it Goes
 - [Github: Star History Charts](https://star-history.com/#sqlfluff/sqlfluff&Date)
+- [Salary Hints](https://www.salaryhints.com/)
+    >*site by andrew chen that crowdsources salary data for data roles*
