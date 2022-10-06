@@ -23,6 +23,8 @@
 ---
 
 ## To Read, To Process
+- [One analyst's guide for going from good to great](https://www.getdbt.com/blog/one-analysts-guide-for-going-from-good-to-great/)
+- [Analysts make the best analytics engineers](https://docs.getdbt.com/blog/analysts-make-the-best-aes?utm_content=222908421&utm_medium=social&utm_source=linkedin&hss_channel=lcp-10893210)
 - [What is dbt?](https://docs.getdbt.com/docs/introduction)
 - [What, exactly, is dbt?](https://www.getdbt.com/blog/what-exactly-is-dbt/)
 - [The dbt Viewpoint](https://docs.getdbt.com/docs/about/viewpoint)
@@ -106,6 +108,8 @@
 ## Style Guides
 
 - [3 things to include in any SQL style guide](https://www.kahandatasolutions.com/blog/3%20things%20to%20include%20in%20any%20style%20guide)
+- [dbt Content Style Guide](https://github.com/dbt-labs/docs.getdbt.com/blob/current/contributing/content-style-guide.md)
+    >*"This guide includes standards we [dbt] want to emphasize, likely because we've made deliberate decisions about them"*
 - [Gitlab SQL Style Guide](https://about.gitlab.com/handbook/business-technology/data-team/platform/sql-style-guide/)
 - [Mazur's SQL Style Guide](https://github.com/mattm/sql-style-guide)
 - [Kickstarter SQL Style Guide](https://gist.github.com/fredbenenson/7bb92718e19138c20591)
