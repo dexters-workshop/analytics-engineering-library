@@ -175,11 +175,14 @@
 - [codegen](https://hub.getdbt.com/dbt-labs/codegen/latest/)
     >***dbt-codegen:** Macros that generate dbt code, and log it to the command line.*
 
-    ```jinja
+    ```r
     # code snippets/examples
 
-    # create source-yaml code:
+    # generate source-yaml code:
     dbt run-operation generate_source --args '{"database_name": "raw", "schema_name": "public", "generate_columns": True, "include_descriptions": True}'
+
+    # generate sql code for source/base/stage models
+    dbt run-operation generate_base_model --args '{"source_name": "postgres", "table_name": "addresses"}'
     ```
 
 
