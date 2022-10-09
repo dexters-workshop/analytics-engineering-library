@@ -152,7 +152,7 @@
     >*Learn how dbt Labs approaches building projects through our current viewpoints on structure, style, and setup.*
 
 
-#### dbt | dbt Project Setup
+#### dbt | Project Setup
 
 - [Overview of building a dbt project](https://docs.getdbt.com/docs/building-a-dbt-project/projects)
     >*root of dbt-docs that outlines how to get up and running with dbt Cloud and dbt CLI*
@@ -170,7 +170,20 @@
     >*dave connors from dbt gives a presentation on how to build a dbt-project from the ground up.*
 
 
-#### dbt | dbt certification
+#### dbt | packages
+
+- [codegen](https://hub.getdbt.com/dbt-labs/codegen/latest/)
+    >***dbt-codegen:** Macros that generate dbt code, and log it to the command line.*
+
+    ```jinja
+    # code snippets/examples
+
+    # create source-yaml code:
+    dbt run-operation generate_source --args '{"database_name": "raw", "schema_name": "public", "generate_columns": True, "include_descriptions": True}'
+    ```
+
+
+#### dbt | certification
 
 - [dbt Analytics Engineering Certification Exam](https://www.getdbt.com/certifications/analytics-engineer-certification-exam/)
     >*page to register for exam. very useful page b/c it has exam prep material: a) what's covered section; b) link to sample-questions; & c) link to a study-guide*
