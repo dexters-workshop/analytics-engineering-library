@@ -15,7 +15,6 @@
 - [Visual Studio Code](#visual-studio-code)
 - [Blogs, etc.](#blogs-etc)
 - [AE Experts](#ae-experts)
-- [Non-AE Aritcles](#non-ae)
 - [Cool But Not Sure Where it Goes](#cool-but-not-sure-where-it-goes)
 
 <br>
