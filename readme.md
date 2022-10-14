@@ -4,7 +4,7 @@
 ## Sections
 - [To Read, To Process](#to-read-to-process)
 - [Modern Data Stack (MDS)](#modern-data-stack-mds)
-- [Analytics Engineering](#analytics-engineering)
+- [Analytics Engineering (AE)](#analytics-engineering-ae)
 - [Style Guides](#style-guides)
 - [Command Line Interface (CLI)](#command-line-interface-cli)
 - [dbt](#dbt)
@@ -77,6 +77,11 @@
     - *"right now (may 2021) analytics engineering is still a new discipline — pretty soon it will be everywhere."*
 
 
+#### AE | Getting Jobs
+- [Analytics jobs: an aggregated jobs board](https://www.getdbt.com/analytics-engineering/jobs/#analytics-engineering-jobs)
+    >***dbt-labs**: "To assist in your data career journey, this board pulls together known job opportunities that feature dbt in their stack."*
+
+
 #### AE | General
 - [Aspiring Analytics Engineers, Start Here](https://madisonmae.substack.com/p/aspiring-analytics-engineers-start)
 
@@ -97,7 +102,7 @@
 - [dbt Developer Blog](https://docs.getdbt.com/blog)
     >*Technical tutorials from the dbt Community.*
 
-#### AE Experts
+#### AE | Experts
 - [Claire Carroll](https://clrcrl.com/)
 - [Niall Rees Woodward (Brooklyn Data Co.)](https://www.niallrees.com/)
     >*I’m a Data Engineer based in London. An open-source enthusiast, I’m a maintainer of SQLFluff, creator of dbt_artifacts and a frequent contributor to several other projects.*
