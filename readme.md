@@ -23,6 +23,8 @@
 ---
 
 ## To Read, To Process
+- [Lessons from a Year of Contributing to Open Source](https://www.niallrees.com/posts/lessons-from-a-year-of-open-source)
+    >[follow up linkedin post](https://www.linkedin.com/posts/niall-woodward_lessons-from-a-year-of-contributing-to-open-activity-6775135557400969216-6MFI?utm_source=share&utm_medium=member_desktop)
 - [One analyst's guide for going from good to great](https://www.getdbt.com/blog/one-analysts-guide-for-going-from-good-to-great/)
 - [Analysts make the best analytics engineers](https://docs.getdbt.com/blog/analysts-make-the-best-aes?utm_content=222908421&utm_medium=social&utm_source=linkedin&hss_channel=lcp-10893210)
 - [What is dbt?](https://docs.getdbt.com/docs/introduction)
@@ -97,6 +99,8 @@
 
 #### AE Experts
 - [Claire Carroll](https://clrcrl.com/)
+- [Niall Rees Woodward (Brooklyn Data Co.)](https://www.niallrees.com/)
+    >*I’m a Data Engineer based in London. An open-source enthusiast, I’m a maintainer of SQLFluff, creator of dbt_artifacts and a frequent contributor to several other projects.*
 - [Dave Connors](https://docs.getdbt.com/author/dave_connors)
     >*dave is interesting b/c he has worked in the consulting wing of dbt labs where he and his colleagues work on an unusually high number of dbt-projects. he has great content on understanding what a 'good' and 'mature' dbt project looks like and each of the milestones to hit along the way.*
 - [Madison Schott](https://madisonmae.substack.com/)
@@ -175,14 +179,17 @@
 - [codegen](https://hub.getdbt.com/dbt-labs/codegen/latest/)
     >***dbt-codegen:** Macros that generate dbt code, and log it to the command line.*
 
-    ```r
+    ```jinja
     # code snippets/examples
 
     # generate source-yaml code:
     dbt run-operation generate_source --args '{"database_name": "raw", "schema_name": "public", "generate_columns": True, "include_descriptions": True}'
 
     # generate sql code for source/base/stage models
-    dbt run-operation generate_base_model --args '{"source_name": "postgres", "table_name": "addresses"}'
+    dbt run-operation generate_base_model --args '{"source_name": "postgres", "table_name": "addresses", "leading_commas": True}'
+
+    # generate model-yaml code:
+    dbt run-operation generate_model_yaml --args '{"model_name": "stg_user_addresses"}'
     ```
 
 
@@ -337,6 +344,12 @@
 
 - [SQL Delete Join](https://www.educba.com/sql-delete-join/?source=leftnav)
     >*an advanced method for using the delete command came up in a leetcode problem. this article illustrates the 'sql-delete-join' - may not need this in AE but thought it was interesting so hanging on to it for now*
+
+
+#### SQL | Linters
+
+- [SQL Fluff](https://www.sqlfluff.com/)
+- [Drizly's SQLFluff GitHub Workflow]()
 
 
 ---
