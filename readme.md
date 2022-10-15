@@ -9,6 +9,7 @@
 - [Command Line Interface (CLI)](#command-line-interface-cli)
 - [dbt](#dbt)
 - [SQL](#sql)
+- [YAML](#yaml)
 - [Data Modeling](#data-modeling)
 - [Version Control](#version-control)
 - [Markdown](#markdown)
@@ -140,6 +141,16 @@
 
 >*Nice definition/overview of dbt from AE with dbt course:*
 > - *"what is dbt? dbt (data build tool) is an open source python framework and CLI tool for compiling SQL queries into full data model DAGs that can be deployed against a warehouse. dbt is agnostic about the warehouse it is connecting to. dbt does the “T” in Extract Load Transform. It transforms the data you’ve brought into your data warehouse."*
+
+
+#### dbt | Random
+- [GitLabs File/Code Using dbt_utils.date_spine() to create Date Dimension(s) Table](https://gitlab.com/gitlab-data/analytics/-/blob/master/transform/snowflake-dbt/models/sources/date/date_details_source.sql?_gl=1%2ab6hyp4%2a_ga%2aMTUzODIxMDk2NC4xNjY1ODY4OTE3%2a_ga_ENFH3X7M5Y%2aMTY2NTg2ODkxNy4xLjAuMTY2NTg2ODkxNy4wLjAuMA..)
+
+- [Generating Surrogate Keys Across Warehouses (by dbt-labs)](https://docs.getdbt.com/blog/sql-surrogate-keys)
+    >*"A surrogate key is a primary key that, instead of existing in your underlying dataset, is derived in the analytics layer itself." This is useful for models/tables that don't have obvious PKs*
+    > - ***example:** combining values from two fields to make a 'PK' is an example of deriving a surrogate key.*
+    > - ***dbt_utils.surrogate_key**(): "takes a list of columns, creates a hash that will remain unique as long as the input columns remain the same"*. ***keypoint:** "Forming your surrogate keys with this macro has the benefit of elegant + DRY null handling."*
+    >- ***when to use?** "you should have a surrogate key on any table that doesn’t already have a unique primary key"*
 
 
 #### dbt | General
@@ -356,18 +367,40 @@
 - [Drizly's SQLFluff GitHub Workflow]()
 
 
----
+<br>
 
+## YAML
+
+- [YAML Tutorial | Learn YAML in 10 Minutes (by Kahan Data Solutions)](https://www.youtube.com/watch?v=BEki_rsWu4E&ab_channel=KahanDataSolutions)
+    > - data-serialization language meant to be human-readable + computationally powerful
+    > - commonly used for configuration files + depends on  key: value pairs + relies on spacing/indentation
+    > - protip when enterning 'values':
+        - add '>' to wrap text in yaml file without it being wrapped in compiled output
+        - add '|' to wrap text in yaml file with it being wrapped in compiled output
+
+- [YAML Checker](https://yamlchecker.com/)
+    > *YAML Checker provides a quick and easy way to validate YAML. As you type, your YAML will be validated with beautiful syntax highlighting and error information.*
+
+<br>
 
 ## Data Modeling
 
-#### Cleaning / Tidying / Munging / Wrangling
+#### DM | General
+
+- [Building Your Data Models for Growth](https://madisonmae.substack.com/p/building-your-data-models-for-growth)
+
+#### DM | Cleaning / Tidying / Wrangling
 - [Tidy Data, Hadley Wickham](https://cran.r-project.org/web/packages/tidyr/vignettes/tidy-data.html) 
     > *The principles of tidy data provide a standard way to organize data values within a dataset.*
 - [The Quartz guide to bad data](https://github.com/Quartz/bad-data-guide)
     > *An exhaustive reference to problems seen in real-world data along with suggestions on how to resolve them.*
 
-#### Slowly Changing Dimensions
+#### DM | Case Studies
+- [Modeling event data at scale (dbt presentation w/ Paul Boocock of Snowplow)](https://www.youtube.com/watch?v=H6Q-dtQ7xdM&ab_channel=dbt)
+    >- *Data modeling is the process of using business logic to aggregate or otherwise transform raw data*
+    >- 
+
+#### DM | Slowly Changing Dimensions
 - [Slowly Changing Dimensions in Data Science](https://www.fivetran.com/blog/slowly-changing-dimensions-in-data-science)
 
 
