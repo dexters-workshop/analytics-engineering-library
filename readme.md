@@ -14,6 +14,7 @@
 - [Version Control](#version-control)
 - [Markdown](#markdown)
 - [Visual Studio Code](#visual-studio-code)
+- [Data Warehouses](#data-warehouses)
 - [Blogs, etc.](#blogs-etc)
 - [AE Experts](#ae-experts)
 - [Cool But Not Sure Where it Goes](#cool-but-not-sure-where-it-goes)
@@ -442,6 +443,24 @@
 ## Visual Studio Code
 - Shortcuts:
     - Open Preview: `CMD + K then V` (splits screen) OR `CMD + Shift + V`
+
+
+<br>
+
+## Data Warehouses
+
+
+#### DW | Snowflake
+
+Useful Code:
+
+```sql
+-- use schema-info table to setup column/code
+select concat(', ', lower(column_name)), ordinal_position
+from information_schema.columns
+where lower(table_name) = 'int_users_joined_with_user_details'
+order by 2
+```
 
 
 <br>
