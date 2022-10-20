@@ -24,6 +24,7 @@
 ---
 
 ## To Read, To Process
+- [The Rise of Data Contracts - And Why Your Data Pipelines Don't Scale](https://dataproducts.substack.com/p/the-rise-of-data-contracts)
 - [Lessons from a Year of Contributing to Open Source](https://www.niallrees.com/posts/lessons-from-a-year-of-open-source)
     >[follow up linkedin post](https://www.linkedin.com/posts/niall-woodward_lessons-from-a-year-of-contributing-to-open-activity-6775135557400969216-6MFI?utm_source=share&utm_medium=member_desktop)
 - [One analyst's guide for going from good to great](https://www.getdbt.com/blog/one-analysts-guide-for-going-from-good-to-great/)
