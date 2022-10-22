@@ -6,11 +6,11 @@
 - [Modern Data Stack (MDS)](#modern-data-stack-mds)
 - [Analytics Engineering (AE)](#analytics-engineering-ae)
 - [Style Guides](#style-guides)
-- [Command Line Interface (CLI)](#command-line-interface-cli)
-- [dbt](#dbt)
-- [SQL](#sql)
-- [YAML](#yaml)
 - [Data Modeling](#data-modeling)
+- [SQL](#sql)
+- [dbt](#dbt)
+- [Command Line Interface (CLI)](#command-line-interface-cli)
+- [YAML](#yaml)
 - [Version Control](#version-control)
 - [Markdown](#markdown)
 - [Visual Studio Code](#visual-studio-code)
@@ -24,10 +24,12 @@
 ---
 
 ## To Read, To Process
+- [Mode, SQL CASE Overview](https://mode.com/sql-tutorial/sql-case/)
+- [dbt, CTE in SQL and why you care about CTEs](https://docs.getdbt.com/terms/cte)
+- [Common Table Expressions – The Ultimate Guide](https://www.essentialsql.com/introduction-common-table-expressions-ctes/)
 - [The Rise of Data Contracts - And Why Your Data Pipelines Don't Scale](https://dataproducts.substack.com/p/the-rise-of-data-contracts)
 - [Lessons from a Year of Contributing to Open Source](https://www.niallrees.com/posts/lessons-from-a-year-of-open-source)
     >[follow up linkedin post](https://www.linkedin.com/posts/niall-woodward_lessons-from-a-year-of-contributing-to-open-activity-6775135557400969216-6MFI?utm_source=share&utm_medium=member_desktop)
-- [One analyst's guide for going from good to great](https://www.getdbt.com/blog/one-analysts-guide-for-going-from-good-to-great/)
 - [Analysts make the best analytics engineers](https://docs.getdbt.com/blog/analysts-make-the-best-aes?utm_content=222908421&utm_medium=social&utm_source=linkedin&hss_channel=lcp-10893210)
 - [What is dbt?](https://docs.getdbt.com/docs/introduction)
 - [What, exactly, is dbt?](https://www.getdbt.com/blog/what-exactly-is-dbt/)
@@ -127,93 +129,28 @@
 - [dbt Style Guide](https://github.com/dbt-labs/corp/blob/main/dbt_style_guide.md)
 
 
-<br>
-
-## Command Line Interface (CLI)
-
-- [The Linux command line for beginners](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview)
-
-- [Basics of BASH for Beginners](https://towardsdatascience.com/basics-of-bash-for-beginners-92e53a4c117a)
-    >*suggested reading in the AE w/dbt course and a great overview to "learn about some of the most useful BASH commands and the utility they offer".*
-
 
 <br>
 
-## dbt
+## Data Modeling
 
->*Nice definition/overview of dbt from AE with dbt course:*
-> - *"what is dbt? dbt (data build tool) is an open source python framework and CLI tool for compiling SQL queries into full data model DAGs that can be deployed against a warehouse. dbt is agnostic about the warehouse it is connecting to. dbt does the “T” in Extract Load Transform. It transforms the data you’ve brought into your data warehouse."*
+#### DM | General
 
+- [Building Your Data Models for Growth](https://madisonmae.substack.com/p/building-your-data-models-for-growth)
 
-#### dbt | Random
-- [GitLabs File/Code Using dbt_utils.date_spine() to create Date Dimension(s) Table](https://gitlab.com/gitlab-data/analytics/-/blob/master/transform/snowflake-dbt/models/sources/date/date_details_source.sql?_gl=1%2ab6hyp4%2a_ga%2aMTUzODIxMDk2NC4xNjY1ODY4OTE3%2a_ga_ENFH3X7M5Y%2aMTY2NTg2ODkxNy4xLjAuMTY2NTg2ODkxNy4wLjAuMA..)
+#### DM | Cleaning / Tidying / Wrangling
+- [Tidy Data, Hadley Wickham](https://cran.r-project.org/web/packages/tidyr/vignettes/tidy-data.html) 
+    > *The principles of tidy data provide a standard way to organize data values within a dataset.*
+- [The Quartz guide to bad data](https://github.com/Quartz/bad-data-guide)
+    > *An exhaustive reference to problems seen in real-world data along with suggestions on how to resolve them.*
 
-- [Generating Surrogate Keys Across Warehouses (by dbt-labs)](https://docs.getdbt.com/blog/sql-surrogate-keys)
-    >*"A surrogate key is a primary key that, instead of existing in your underlying dataset, is derived in the analytics layer itself." This is useful for models/tables that don't have obvious PKs*
-    > - ***example:** combining values from two fields to make a 'PK' is an example of deriving a surrogate key.*
-    > - ***dbt_utils.surrogate_key**(): "takes a list of columns, creates a hash that will remain unique as long as the input columns remain the same"*. ***keypoint:** "Forming your surrogate keys with this macro has the benefit of elegant + DRY null handling."*
-    >- ***when to use?** "you should have a surrogate key on any table that doesn’t already have a unique primary key"*
+#### DM | Case Studies
+- [Modeling event data at scale (dbt presentation w/ Paul Boocock of Snowplow)](https://www.youtube.com/watch?v=H6Q-dtQ7xdM&ab_channel=dbt)
+    >- *Data modeling is the process of using business logic to aggregate or otherwise transform raw data*
+    >- 
 
-
-#### dbt | General
-
-- [Never used dbt? Here’s how it can change your data game](https://www.getcensus.com/blog/never-used-dbt)
-     >- ***great explanation:** dbt is a data transformation tool that leverages the power of SQL and Jinja to write modular data models within your data warehouse. It reads from the data within your data warehouse and writes to it without ever leaving, allowing you to test and document your code and promoting proper code maintenance along the way.*
-    >- *dbt is an open-source tool that is completely free to use*
-    >- *implementing dbt is nearly risk-free since it lives entirely in your data warehouse. It reads from your data warehouse and writes to it. In fact, dbt puts the T in ETL/ELT.*
-
-#### dbt | Getting Help
-
-- [dbt discourse](https://discourse.getdbt.com/)
-    >**dbt hosted site for getting support with all things dbt (help, show/tell, discussion, etc.)*
-
-#### dbt | Best Practices
-
-- [Best practice guides](https://docs.getdbt.com/guides/best-practices)
-    >*Learn how dbt Labs approaches building projects through our current viewpoints on structure, style, and setup.*
-
-
-#### dbt | Project Setup
-
-- [Overview of building a dbt project](https://docs.getdbt.com/docs/building-a-dbt-project/projects)
-    >*root of dbt-docs that outlines how to get up and running with dbt Cloud and dbt CLI*
-
-- [Getting started with dbt Core](https://docs.getdbt.com/guides/getting-started/learning-more/getting-started-dbt-core)
-    >*dbt-doc(s) with really awesome walk through of setting up a dbt-project using dbt CLI.*
-    > - *very thorough documentation/tutorial on getting a dbt-project up and running start/finish*
-    > - *has link(s) to a really thorough example of seting up and loading data from Google BigQuery. also, has examples for databricks, redshift, snowflake*
-    > - has awesome FAQs sections with loads of pro-tips
-
-- [Configuring your profile.yml](https://docs.getdbt.com/dbt-cli/configure-your-profile)
-    >*awesome dbt-doc(s) w/ALL the details needed to properly setup the **profile.yml** file. includes a reference link to a doc w/ALL warehouses that dbt can connect to and how to setup profile.yml files for each.*
-
-- [How to build a mature dbt project from scratch](https://www.getdbt.com/coalesce-2021/how-to-build-a-mature-dbt-project-from-scratch/)
-    >*dave connors from dbt gives a presentation on how to build a dbt-project from the ground up.*
-
-
-#### dbt | packages
-
-- [codegen](https://hub.getdbt.com/dbt-labs/codegen/latest/)
-    >***dbt-codegen:** Macros that generate dbt code, and log it to the command line.*
-
-    ```jinja
-    # code snippets/examples
-
-    # generate source-yaml code:
-    dbt run-operation generate_source --args '{"database_name": "raw", "schema_name": "public", "generate_columns": True, "include_descriptions": True}'
-
-    # generate sql code for source/base/stage models
-    dbt run-operation generate_base_model --args '{"source_name": "postgres", "table_name": "addresses", "leading_commas": True}'
-
-    # generate model-yaml code:
-    dbt run-operation generate_model_yaml --args '{"model_name": "stg_user_addresses"}'
-    ```
-
-
-#### dbt | certification
-
-- [dbt Analytics Engineering Certification Exam](https://www.getdbt.com/certifications/analytics-engineer-certification-exam/)
-    >*page to register for exam. very useful page b/c it has exam prep material: a) what's covered section; b) link to sample-questions; & c) link to a study-guide*
+#### DM | Slowly Changing Dimensions
+- [Slowly Changing Dimensions in Data Science](https://www.fivetran.com/blog/slowly-changing-dimensions-in-data-science)
 
 
 
@@ -232,6 +169,12 @@
 - [SQL Fiddle](http://sqlfiddle.com/about.html)
     >*A tool for easy online testing and sharing of database problems and their solutions.*
 
+#### SQL | Advice
+
+- [One analyst's guide for going from good to great](https://www.getdbt.com/blog/one-analysts-guide-for-going-from-good-to-great/)
+    >- *Use Common Table Expressions for extremely readable SQL*
+    >- *Learn Window functions and ditch the spreadsheets*
+    >- *Use Aggregate Case Statements for Easy Summaries of Data*
 
 #### SQL | Filtering Data
 
@@ -371,6 +314,97 @@
 
 <br>
 
+## dbt
+
+>*Nice definition/overview of dbt from AE with dbt course:*
+> - *"what is dbt? dbt (data build tool) is an open source python framework and CLI tool for compiling SQL queries into full data model DAGs that can be deployed against a warehouse. dbt is agnostic about the warehouse it is connecting to. dbt does the “T” in Extract Load Transform. It transforms the data you’ve brought into your data warehouse."*
+
+
+#### dbt | Random
+- [GitLabs File/Code Using dbt_utils.date_spine() to create Date Dimension(s) Table](https://gitlab.com/gitlab-data/analytics/-/blob/master/transform/snowflake-dbt/models/sources/date/date_details_source.sql?_gl=1%2ab6hyp4%2a_ga%2aMTUzODIxMDk2NC4xNjY1ODY4OTE3%2a_ga_ENFH3X7M5Y%2aMTY2NTg2ODkxNy4xLjAuMTY2NTg2ODkxNy4wLjAuMA..)
+
+- [Generating Surrogate Keys Across Warehouses (by dbt-labs)](https://docs.getdbt.com/blog/sql-surrogate-keys)
+    >*"A surrogate key is a primary key that, instead of existing in your underlying dataset, is derived in the analytics layer itself." This is useful for models/tables that don't have obvious PKs*
+    > - ***example:** combining values from two fields to make a 'PK' is an example of deriving a surrogate key.*
+    > - ***dbt_utils.surrogate_key**(): "takes a list of columns, creates a hash that will remain unique as long as the input columns remain the same"*. ***keypoint:** "Forming your surrogate keys with this macro has the benefit of elegant + DRY null handling."*
+    >- ***when to use?** "you should have a surrogate key on any table that doesn’t already have a unique primary key"*
+
+
+#### dbt | General
+
+- [Never used dbt? Here’s how it can change your data game](https://www.getcensus.com/blog/never-used-dbt)
+     >- ***great explanation:** dbt is a data transformation tool that leverages the power of SQL and Jinja to write modular data models within your data warehouse. It reads from the data within your data warehouse and writes to it without ever leaving, allowing you to test and document your code and promoting proper code maintenance along the way.*
+    >- *dbt is an open-source tool that is completely free to use*
+    >- *implementing dbt is nearly risk-free since it lives entirely in your data warehouse. It reads from your data warehouse and writes to it. In fact, dbt puts the T in ETL/ELT.*
+
+#### dbt | Getting Help
+
+- [dbt discourse](https://discourse.getdbt.com/)
+    >**dbt hosted site for getting support with all things dbt (help, show/tell, discussion, etc.)*
+
+#### dbt | Best Practices
+
+- [Best practice guides](https://docs.getdbt.com/guides/best-practices)
+    >*Learn how dbt Labs approaches building projects through our current viewpoints on structure, style, and setup.*
+
+
+#### dbt | Project Setup
+
+- [Overview of building a dbt project](https://docs.getdbt.com/docs/building-a-dbt-project/projects)
+    >*root of dbt-docs that outlines how to get up and running with dbt Cloud and dbt CLI*
+
+- [Getting started with dbt Core](https://docs.getdbt.com/guides/getting-started/learning-more/getting-started-dbt-core)
+    >*dbt-doc(s) with really awesome walk through of setting up a dbt-project using dbt CLI.*
+    > - *very thorough documentation/tutorial on getting a dbt-project up and running start/finish*
+    > - *has link(s) to a really thorough example of seting up and loading data from Google BigQuery. also, has examples for databricks, redshift, snowflake*
+    > - has awesome FAQs sections with loads of pro-tips
+
+- [Configuring your profile.yml](https://docs.getdbt.com/dbt-cli/configure-your-profile)
+    >*awesome dbt-doc(s) w/ALL the details needed to properly setup the **profile.yml** file. includes a reference link to a doc w/ALL warehouses that dbt can connect to and how to setup profile.yml files for each.*
+
+- [How to build a mature dbt project from scratch](https://www.getdbt.com/coalesce-2021/how-to-build-a-mature-dbt-project-from-scratch/)
+    >*dave connors from dbt gives a presentation on how to build a dbt-project from the ground up.*
+
+
+#### dbt | packages
+
+- [codegen](https://hub.getdbt.com/dbt-labs/codegen/latest/)
+    >***dbt-codegen:** Macros that generate dbt code, and log it to the command line.*
+
+    ```jinja
+    # code snippets/examples
+
+    # generate source-yaml code:
+    dbt run-operation generate_source --args '{"database_name": "raw", "schema_name": "public", "generate_columns": True, "include_descriptions": True}'
+
+    # generate sql code for source/base/stage models
+    dbt run-operation generate_base_model --args '{"source_name": "postgres", "table_name": "addresses", "leading_commas": True}'
+
+    # generate model-yaml code:
+    dbt run-operation generate_model_yaml --args '{"model_name": "stg_user_addresses"}'
+    ```
+
+
+#### dbt | certification
+
+- [dbt Analytics Engineering Certification Exam](https://www.getdbt.com/certifications/analytics-engineer-certification-exam/)
+    >*page to register for exam. very useful page b/c it has exam prep material: a) what's covered section; b) link to sample-questions; & c) link to a study-guide*
+
+
+
+<br>
+
+## Command Line Interface (CLI)
+
+- [The Linux command line for beginners](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview)
+
+- [Basics of BASH for Beginners](https://towardsdatascience.com/basics-of-bash-for-beginners-92e53a4c117a)
+    >*suggested reading in the AE w/dbt course and a great overview to "learn about some of the most useful BASH commands and the utility they offer".*
+
+
+
+<br>
+
 ## YAML
 
 - [YAML Tutorial | Learn YAML in 10 Minutes (by Kahan Data Solutions)](https://www.youtube.com/watch?v=BEki_rsWu4E&ab_channel=KahanDataSolutions)
@@ -385,28 +419,6 @@
 
 <br>
 
-## Data Modeling
-
-#### DM | General
-
-- [Building Your Data Models for Growth](https://madisonmae.substack.com/p/building-your-data-models-for-growth)
-
-#### DM | Cleaning / Tidying / Wrangling
-- [Tidy Data, Hadley Wickham](https://cran.r-project.org/web/packages/tidyr/vignettes/tidy-data.html) 
-    > *The principles of tidy data provide a standard way to organize data values within a dataset.*
-- [The Quartz guide to bad data](https://github.com/Quartz/bad-data-guide)
-    > *An exhaustive reference to problems seen in real-world data along with suggestions on how to resolve them.*
-
-#### DM | Case Studies
-- [Modeling event data at scale (dbt presentation w/ Paul Boocock of Snowplow)](https://www.youtube.com/watch?v=H6Q-dtQ7xdM&ab_channel=dbt)
-    >- *Data modeling is the process of using business logic to aggregate or otherwise transform raw data*
-    >- 
-
-#### DM | Slowly Changing Dimensions
-- [Slowly Changing Dimensions in Data Science](https://www.fivetran.com/blog/slowly-changing-dimensions-in-data-science)
-
-
----
 
 
 ## Version Control
@@ -480,6 +492,8 @@ order by 2
 
 - [When Subtraction Adds Value](https://hbr.org/2022/02/when-subtraction-adds-value)
     >*interesting take on how to think about subtracting work instead of adding work when involved in Decision Making and Problem Solving.*
+
+
 
 
 <br>
