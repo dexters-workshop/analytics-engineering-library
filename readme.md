@@ -24,6 +24,7 @@
 ---
 
 ## To Read, To Process
+- [What do BETWEEN and the devil have in common?](https://sqlblog.org/2011/10/19/what-do-between-and-the-devil-have-in-common)
 - [Mode, SQL CASE Overview](https://mode.com/sql-tutorial/sql-case/)
 - [dbt, CTE in SQL and why you care about CTEs](https://docs.getdbt.com/terms/cte)
 - [Common Table Expressions – The Ultimate Guide](https://www.essentialsql.com/introduction-common-table-expressions-ctes/)
@@ -336,6 +337,11 @@
      >- ***great explanation:** dbt is a data transformation tool that leverages the power of SQL and Jinja to write modular data models within your data warehouse. It reads from the data within your data warehouse and writes to it without ever leaving, allowing you to test and document your code and promoting proper code maintenance along the way.*
     >- *dbt is an open-source tool that is completely free to use*
     >- *implementing dbt is nearly risk-free since it lives entirely in your data warehouse. It reads from your data warehouse and writes to it. In fact, dbt puts the T in ETL/ELT.*
+
+#### dbt | code snippets
+
+- things to remember +/or that i keep forgetting =)
+    >- dbt docs generate AND dbt docs serve --no-browser
 
 #### dbt | Getting Help
 
