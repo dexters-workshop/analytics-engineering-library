@@ -24,6 +24,8 @@
 ---
 
 ## To Read, To Process
+- [SQL Order of Operations – In Which Order MySQL Executes Queries?](https://www.eversql.com/sql-order-of-operations-sql-query-order-of-execution/)
+- [Why Learn SQL in 2022 (Analyzing Real Job Data)](https://www.dataquest.io/blog/why-learn-sql/)
 - [What do BETWEEN and the devil have in common?](https://sqlblog.org/2011/10/19/what-do-between-and-the-devil-have-in-common)
 - [Mode, SQL CASE Overview](https://mode.com/sql-tutorial/sql-case/)
 - [dbt, CTE in SQL and why you care about CTEs](https://docs.getdbt.com/terms/cte)
@@ -121,12 +123,25 @@
 
 ## Style Guides
 
+#### SG | General
+
+
+#### SG | SQL
+
+- [Write better SQL with a Style Guide | 3 Things to Consider](https://www.youtube.com/watch?v=C8rpVtyaQNI&ab_channel=KahanDataSolutions)
+
 - [3 things to include in any SQL style guide](https://www.kahandatasolutions.com/blog/3%20things%20to%20include%20in%20any%20style%20guide)
-- [dbt Content Style Guide](https://github.com/dbt-labs/docs.getdbt.com/blob/current/contributing/content-style-guide.md)
-    >*"This guide includes standards we [dbt] want to emphasize, likely because we've made deliberate decisions about them"*
+
 - [Gitlab SQL Style Guide](https://about.gitlab.com/handbook/business-technology/data-team/platform/sql-style-guide/)
 - [Mazur's SQL Style Guide](https://github.com/mattm/sql-style-guide)
+
 - [Kickstarter SQL Style Guide](https://gist.github.com/fredbenenson/7bb92718e19138c20591)
+
+#### SG | dbt
+
+- [dbt Content Style Guide](https://github.com/dbt-labs/docs.getdbt.com/blob/current/contributing/content-style-guide.md)
+    >*"This guide includes standards we [dbt] want to emphasize, likely because we've made deliberate decisions about them"*
+
 - [dbt Style Guide](https://github.com/dbt-labs/corp/blob/main/dbt_style_guide.md)
 
 
@@ -240,10 +255,16 @@
 - [What is the Difference Between COUNT(*), COUNT(1), COUNT(column name), and COUNT(DISTINCT column name)?](https://learnsql.com/blog/difference-between-count-distinct/)
     >*Have you noticed there are different variations of the SQL COUNT() function? This article explains the various arguments and their uses.*
 
-- [SQL Window Functions vs. SQL Aggregate Functions: Similarities and Differences](https://learnsql.com/blog/window-functions-vs-aggregate-functions/)
-
 
 #### SQL | Window Functions
+
+- [SQL Window Functions vs. SQL Aggregate Functions: Similarities and Differences](https://learnsql.com/blog/window-functions-vs-aggregate-functions/)
+
+- [An Easy Guide to Advanced SQL Window Functions](https://towardsdatascience.com/a-guide-to-advanced-sql-window-functions-f63f2642cbf9)
+    >Three Types of Window Fuctions: 
+        **1. Aggregate Window Functions:** avg(), max(), mix(), sum(), count()
+        **2. Ranking Window Functions:** row_number(), rank(), dense_rank(), percent_rank(), ntile()
+        **3. Value Window Functions:** lag(), lead(), first_value(), last_value(), nth_value()
 
 - [Let's Learn SQL Window Functions](https://madisonmae.substack.com/p/lets-learn-sql-window-functions)
     >*nice summary of window function's by Madison Mae (+with examples)*
@@ -251,11 +272,11 @@
 
 - [[Video] Lead and Lag functions in SQL Server 2012](https://www.youtube.com/watch?v=l_Zn5sdkamM&ab_channel=kudvenkat)
     >*excellent overview of these two functions (should generalize to other SQL dialects)*
-    > - **lead** function used to access subsequent row of data along w/current row of data.
-    > - **lag** function used to access previous row of data along w/current row of data.
-    > - **order by** clase is required.
-    > - **partition by** clause is optional
-    > - **syntax:** LEAD/LAG(col-name, offset, default-value) OVER(ORDER BY col1, col2, ...)
+    **lead()** function returns values from previous rows + includes it w/current row/record.
+    **lag()** function returns values from following rows + includes it w/current row/record.
+    **order by** clause is required.
+    **partition by** clause is optional
+    **syntax:** LEAD/LAG(col-name, offset, default-value) OVER(ORDER BY col1, col2, ...)
 
     
 
