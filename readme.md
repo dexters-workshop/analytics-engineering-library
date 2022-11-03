@@ -24,6 +24,7 @@
 ---
 
 ## To Read, To Process
+- [Bringing autocomplete to Analytics Engineers](https://www.deepchannel.com/posts/bringing-autocomplete-to-analytics-engineers?utm_source=lia)
 - [SQL Order of Operations – In Which Order MySQL Executes Queries?](https://www.eversql.com/sql-order-of-operations-sql-query-order-of-execution/)
 - [Why Learn SQL in 2022 (Analyzing Real Job Data)](https://www.dataquest.io/blog/why-learn-sql/)
 - [What do BETWEEN and the devil have in common?](https://sqlblog.org/2011/10/19/what-do-between-and-the-devil-have-in-common)
@@ -88,6 +89,8 @@
 - [Analytics jobs: an aggregated jobs board](https://www.getdbt.com/analytics-engineering/jobs/#analytics-engineering-jobs)
     >***dbt-labs**: "To assist in your data career journey, this board pulls together known job opportunities that feature dbt in their stack."*
 
+#### AE | Technological Updates
+
 
 #### AE | General
 - [Aspiring Analytics Engineers, Start Here](https://madisonmae.substack.com/p/aspiring-analytics-engineers-start)
@@ -97,7 +100,7 @@
 
 #### AE | Books Related to AE
 
-- [The Analytics Setup Guidebook (currently reading)](https://www.holistics.io/books/setup-analytics/)
+- [The Analytics Setup Guidebook](https://www.holistics.io/books/setup-analytics/)
     >*the awesome people at Holistics put together a **free** 187 page guide designed to: "Restructure your knowledge of the complex data analytics landscape, and learn how to build scalable analytics & BI stacks in the modern cloud era."*
 
 - [The Data Warehouse Toolkit, 3rd Edition](https://www.kimballgroup.com/data-warehouse-business-intelligence-resources/books/data-warehouse-dw-toolkit/)
