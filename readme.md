@@ -131,14 +131,20 @@
 
 #### SG | SQL
 
+- [SQL Style Guide, Mozilla](https://docs.telemetry.mozilla.org/concepts/sql_style.html)
+
+- [SQL Style Guide, Gitlab](https://about.gitlab.com/handbook/business-technology/data-team/platform/sql-style-guide/)
+
+- [SQL Style Guide, Matt Mazur](https://github.com/mattm/sql-style-guide)
+
+- [SQL Style Guide, Kickstarter](https://gist.github.com/fredbenenson/7bb92718e19138c20591)
+
+- [SQL Style Guide, Simon Holywell](https://www.sqlstyle.guide/)
+
 - [Write better SQL with a Style Guide | 3 Things to Consider](https://www.youtube.com/watch?v=C8rpVtyaQNI&ab_channel=KahanDataSolutions)
 
 - [3 things to include in any SQL style guide](https://www.kahandatasolutions.com/blog/3%20things%20to%20include%20in%20any%20style%20guide)
 
-- [Gitlab SQL Style Guide](https://about.gitlab.com/handbook/business-technology/data-team/platform/sql-style-guide/)
-- [Mazur's SQL Style Guide](https://github.com/mattm/sql-style-guide)
-
-- [Kickstarter SQL Style Guide](https://gist.github.com/fredbenenson/7bb92718e19138c20591)
 
 #### SG | dbt
 
