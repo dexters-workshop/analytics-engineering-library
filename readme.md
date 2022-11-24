@@ -24,8 +24,9 @@
 ---
 
 ## To Read, To Process
+- [Hands-on: the dbt Semantic Layer](https://coalesce.getdbt.com/agenda/hands-on-the-dbt-semantic-layer)
+- [Install dbt with Docker](https://docs.getdbt.com/docs/get-started/docker-install)
 - [Bringing autocomplete to Analytics Engineers](https://www.deepchannel.com/posts/bringing-autocomplete-to-analytics-engineers?utm_source=lia)
-- [SQL Order of Operations – In Which Order MySQL Executes Queries?](https://www.eversql.com/sql-order-of-operations-sql-query-order-of-execution/)
 - [Why Learn SQL in 2022 (Analyzing Real Job Data)](https://www.dataquest.io/blog/why-learn-sql/)
 - [What do BETWEEN and the devil have in common?](https://sqlblog.org/2011/10/19/what-do-between-and-the-devil-have-in-common)
 - [Mode, SQL CASE Overview](https://mode.com/sql-tutorial/sql-case/)
@@ -172,7 +173,6 @@
 #### DM | Case Studies
 - [Modeling event data at scale (dbt presentation w/ Paul Boocock of Snowplow)](https://www.youtube.com/watch?v=H6Q-dtQ7xdM&ab_channel=dbt)
     >- *Data modeling is the process of using business logic to aggregate or otherwise transform raw data*
-    >- 
 
 #### DM | Slowly Changing Dimensions
 - [Slowly Changing Dimensions in Data Science](https://www.fivetran.com/blog/slowly-changing-dimensions-in-data-science)
@@ -193,6 +193,13 @@
 
 - [SQL Fiddle](http://sqlfiddle.com/about.html)
     >*A tool for easy online testing and sharing of database problems and their solutions.*
+
+#### SQL | Conceptual Execution Order
+
+- [SQL Order of Operations – In Which Order MySQL Executes Queries?](https://www.eversql.com/sql-order-of-operations-sql-query-order-of-execution/)
+    >**Learnings:**
+    -window functions can only be used in either the SELECT or the ORDER BY clause
+    -aggregation functions can be used inside Window functions, e.g., SUM(COUNT(*)) OVER ()
 
 #### SQL | Advice
 
@@ -308,10 +315,12 @@
         3) Master Subqueries.
 - [How to learn SQL for data science interview (the minimize effort maximize outcome way)](https://www.youtube.com/watch?v=vaD3ZFFNwhM&ab_channel=TinaHuang)
     >*scientifically-backed study plan to learn SQL most efficiently with the least amount of time and effort*
+
 - [Analyzing 89 Responses to a SQL Screener Question for a Senior Data Analyst Position](https://mattmazur.com/2018/11/12/analyzing-89-responses-to-a-sql-screener-question-for-a-senior-data-analyst-position/comment-page-1/?unapproved=55959&moderation-hash=65cb4dbf0ddf1d2f87c78641dbcc59f7#comment-55959)
     >*Matt Mazur's analysis of candidate responses to a SQL Screener Question that was designed to weed out weaker candidates*
+
 - [31 SQL Questions for Data Analysts [Updated for 2022]](https://www.interviewquery.com/p/sql-questions-data-analyst)
-- [How to learn SQL for data science interview (the minimize effort maximize outcome way)](https://www.youtube.com/watch?v=vaD3ZFFNwhM&ab_channel=TinaHuang)
+    
 - [Three Tricky Analytics Interview Questions with Andrew](https://www.youtube.com/watch?v=uLCFCzVLi4Q&ab_channel=DataScienceJay)
 
    >*We tackle three analytics interview questions by solving them with SQL. Each one is progressively harder and Andrew explains his methodology towards solving each question!*
@@ -350,8 +359,11 @@
 >*Nice definition/overview of dbt from AE with dbt course:*
 > - *"what is dbt? dbt (data build tool) is an open source python framework and CLI tool for compiling SQL queries into full data model DAGs that can be deployed against a warehouse. dbt is agnostic about the warehouse it is connecting to. dbt does the “T” in Extract Load Transform. It transforms the data you’ve brought into your data warehouse."*
 
+#### dbt | General
 
-#### dbt | Random
+- [The dbt Viewpoint](https://docs.getdbt.com/community/resources/viewpoint)
+    >Building a Mature Analytics Workflow: The dbt Viewpoint!
+
 - [GitLabs File/Code Using dbt_utils.date_spine() to create Date Dimension(s) Table](https://gitlab.com/gitlab-data/analytics/-/blob/master/transform/snowflake-dbt/models/sources/date/date_details_source.sql?_gl=1%2ab6hyp4%2a_ga%2aMTUzODIxMDk2NC4xNjY1ODY4OTE3%2a_ga_ENFH3X7M5Y%2aMTY2NTg2ODkxNy4xLjAuMTY2NTg2ODkxNy4wLjAuMA..)
 
 - [Generating Surrogate Keys Across Warehouses (by dbt-labs)](https://docs.getdbt.com/blog/sql-surrogate-keys)
@@ -359,9 +371,6 @@
     > - ***example:** combining values from two fields to make a 'PK' is an example of deriving a surrogate key.*
     > - ***dbt_utils.surrogate_key**(): "takes a list of columns, creates a hash that will remain unique as long as the input columns remain the same"*. ***keypoint:** "Forming your surrogate keys with this macro has the benefit of elegant + DRY null handling."*
     >- ***when to use?** "you should have a surrogate key on any table that doesn’t already have a unique primary key"*
-
-
-#### dbt | General
 
 - [Never used dbt? Here’s how it can change your data game](https://www.getcensus.com/blog/never-used-dbt)
      >- ***great explanation:** dbt is a data transformation tool that leverages the power of SQL and Jinja to write modular data models within your data warehouse. It reads from the data within your data warehouse and writes to it without ever leaving, allowing you to test and document your code and promoting proper code maintenance along the way.*
