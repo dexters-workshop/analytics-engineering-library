@@ -27,8 +27,6 @@
 - [Hands-on: the dbt Semantic Layer](https://coalesce.getdbt.com/agenda/hands-on-the-dbt-semantic-layer)
 - [Install dbt with Docker](https://docs.getdbt.com/docs/get-started/docker-install)
 - [Bringing autocomplete to Analytics Engineers](https://www.deepchannel.com/posts/bringing-autocomplete-to-analytics-engineers?utm_source=lia)
-- [Why Learn SQL in 2022 (Analyzing Real Job Data)](https://www.dataquest.io/blog/why-learn-sql/)
-- [What do BETWEEN and the devil have in common?](https://sqlblog.org/2011/10/19/what-do-between-and-the-devil-have-in-common)
 - [Mode, SQL CASE Overview](https://mode.com/sql-tutorial/sql-case/)
 - [dbt, CTE in SQL and why you care about CTEs](https://docs.getdbt.com/terms/cte)
 - [Common Table Expressions – The Ultimate Guide](https://www.essentialsql.com/introduction-common-table-expressions-ctes/)
@@ -48,7 +46,7 @@
 - [SQL: Don't Do This](https://wiki.postgresql.org/wiki/Don%27t_Do_This)
 - [An Opinionated Introduction to Data Warehouse Query Strategies, Part 1 of N](https://calogica.com/sql/2018/06/22/data-warehouse-query-strategies.html)
 - [SQL Window Functions to Pass a Data Analytics Interview (Opinionated SQL Series Part 2/N)](https://calogica.com/sql/2018/07/01/sql-functions-for-data-analyst-interviews.html)
-- [SQL Tutorial](https://www.geeksforgeeks.org/sql-tutorial/)
+
 
 
 <br>
