@@ -285,6 +285,19 @@
 - [Let's Learn SQL Window Functions](https://madisonmae.substack.com/p/lets-learn-sql-window-functions)
     >*nice summary of window function's by Madison Mae (+with examples)*
 
+- [What a Moving Average Is and How to Compute it in SQL](https://learnsql.com/blog/moving-average-in-sql/)
+    >- Rolling/Moving averages remove noise (smooth data) so that we can focus on trends.
+    >- Whereas 'other' window functions have the partition be over 'some' group (or entire table as one single parition), with moving averages each row has a 'different' window frame (e.g., current row + two preceeding rows - for a 3 day moving average).
+    ```sql
+    -- example for 3 day moving average (w/full table as partition)
+    select 
+        moving_average.*
+        , avg(price) over(order by sales_date
+                          rows between 2 preceding and current row ) as moving_average
+    from stock_price;
+    ```
+
+
 
 - [[Video] Lead and Lag functions in SQL Server 2012](https://www.youtube.com/watch?v=l_Zn5sdkamM&ab_channel=kudvenkat)
     >*excellent overview of these two functions (should generalize to other SQL dialects)*
