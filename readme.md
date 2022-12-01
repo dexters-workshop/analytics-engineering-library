@@ -272,6 +272,9 @@
 
 #### SQL | Window Functions
 
+- [Tips And Tricks: How To Fill Null Values in SQL](https://towardsdatascience.com/tips-and-tricks-how-to-fill-null-values-in-sql-4fccb249df6f)
+    >*Clever trick using window funciton with cumulative count to create groups that then facilitate forward filling of non null values (filling down)*
+
 - [SQL Window Functions vs. SQL Aggregate Functions: Similarities and Differences](https://learnsql.com/blog/window-functions-vs-aggregate-functions/)
 
 - [An Easy Guide to Advanced SQL Window Functions](https://towardsdatascience.com/a-guide-to-advanced-sql-window-functions-f63f2642cbf9)
