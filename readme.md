@@ -78,6 +78,8 @@
 
 - [What is analytics engineering?](https://www.getdbt.com/what-is-analytics-engineering/)
 
+- [Brooklyn Data Company, AE Progression Skills at each Level](https://brooklyn-data-co.progressionapp.com/teams/data-team)
+
 - [Analytics Engineering Everywhere (by Jason Ganz)](https://jasnonaz.medium.com/analytics-engineering-everywhere-d56f363da625)
     >- *"if it feels like we’re at a real inflection point for Analytics Engineering — it’s because we are.*"
     >- *"what was very recently the domain **[AE]** of a few adventurous data teams is quickly becoming industry standard for tech organization — and there’s every reason to think that other types of organizations will be following along shortly. **the impact is just too high."***
@@ -161,6 +163,9 @@
 #### DM | General
 
 - [Building Your Data Models for Growth](https://madisonmae.substack.com/p/building-your-data-models-for-growth)
+
+- [GitLab, Enterprise Dimensional Model](https://about.gitlab.com/handbook/business-technology/data-team/platform/edw/)
+    >*GitLabs page that has their standards/conventions for doing dimensional modeling at scale*
 
 #### DM | Cleaning / Tidying / Wrangling
 - [Tidy Data, Hadley Wickham](https://cran.r-project.org/web/packages/tidyr/vignettes/tidy-data.html) 
@@ -372,6 +377,12 @@
 
 >*Nice definition/overview of dbt from AE with dbt course:*
 > - *"what is dbt? dbt (data build tool) is an open source python framework and CLI tool for compiling SQL queries into full data model DAGs that can be deployed against a warehouse. dbt is agnostic about the warehouse it is connecting to. dbt does the “T” in Extract Load Transform. It transforms the data you’ve brought into your data warehouse."*
+
+## dbt | sample projects
+
+- [jaffle_shop dbt-project by dbt-labs](https://github.com/dbt-labs/jaffle_shop)
+
+- [Gitlab Data Team, Mature Production dbt-project](https://gitlab.com/gitlab-data/analytics/-/tree/master/transform/snowflake-dbt)
 
 #### dbt | General
 
