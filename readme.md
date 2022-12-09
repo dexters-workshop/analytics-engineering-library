@@ -165,7 +165,7 @@
 - [Building Your Data Models for Growth](https://madisonmae.substack.com/p/building-your-data-models-for-growth)
 
 - [GitLab, Enterprise Dimensional Model](https://about.gitlab.com/handbook/business-technology/data-team/platform/edw/)
-    >*GitLabs page that has their standards/conventions for doing dimensional modeling at scale*
+    >*GitLabs page that has their standards/conventions for doing dimensional modeling at scale. Has excellent examples of how each different type of table is named/organized in their data warehouse.*
 
 #### DM | Cleaning / Tidying / Wrangling
 - [Tidy Data, Hadley Wickham](https://cran.r-project.org/web/packages/tidyr/vignettes/tidy-data.html) 
@@ -196,6 +196,10 @@
 
 - [SQL Fiddle](http://sqlfiddle.com/about.html)
     >*A tool for easy online testing and sharing of database problems and their solutions.*
+
+- [Regular Expression Tool 01](https://regexr.com/)
+
+- [Regular Expression Tool 02](https://regex101.com/)
 
 #### SQL | Conceptual Execution Order
 
