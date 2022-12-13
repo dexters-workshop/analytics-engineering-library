@@ -180,6 +180,9 @@
 #### DM | Slowly Changing Dimensions
 - [Slowly Changing Dimensions in Data Science](https://www.fivetran.com/blog/slowly-changing-dimensions-in-data-science)
 
+#### DM | Talks
+- [Back to the Future: Where Dimensional Modeling Enters the Modern Data Stack](https://www.youtube.com/watch?v=-yQa_DxEqaQ&ab_channel=dbt)
+
 
 
 <br>
@@ -200,6 +203,9 @@
 - [Regular Expression Tool 01](https://regexr.com/)
 
 - [Regular Expression Tool 02](https://regex101.com/)
+
+- [RegexLearn](https://regexlearn.com/learn/regex101)
+    >*56 exercises for learning regular expressions - 101 basics*
 
 #### SQL | Conceptual Execution Order
 
@@ -547,6 +553,9 @@ select concat(', ', lower(column_name)), ordinal_position
 from information_schema.columns
 where lower(table_name) = 'int_users_joined_with_user_details'
 order by 2
+
+-- check Timezonegit s
+show parameters like '%timezone%' 
 ```
 
 
