@@ -183,6 +183,9 @@
 #### DM | Talks
 - [Back to the Future: Where Dimensional Modeling Enters the Modern Data Stack](https://www.youtube.com/watch?v=-yQa_DxEqaQ&ab_channel=dbt)
 
+#### DM | Books
+- [Data Modeling Storytelling](https://technicspub.com/data-model-storytelling/)
+
 
 
 <br>
@@ -385,6 +388,12 @@
 
 ## dbt
 
+- Useful Code
+    ```sql
+    -- to open profile.yml file
+    open ~/.dbt/profiles.yml
+    ```
+
 >*Nice definition/overview of dbt from AE with dbt course:*
 > - *"what is dbt? dbt (data build tool) is an open source python framework and CLI tool for compiling SQL queries into full data model DAGs that can be deployed against a warehouse. dbt is agnostic about the warehouse it is connecting to. dbt does the “T” in Extract Load Transform. It transforms the data you’ve brought into your data warehouse."*
 
@@ -470,6 +479,11 @@
 - [dbt Analytics Engineering Certification Exam](https://www.getdbt.com/certifications/analytics-engineer-certification-exam/)
     >*page to register for exam. very useful page b/c it has exam prep material: a) what's covered section; b) link to sample-questions; & c) link to a study-guide*
 
+- [A Guide to Passing the dbt Analytics Engineering Certification](https://aimpointdigital.com/guide-passing-dbt-analytics-engineering-certification/)
+    > [linkedin post by blog post author on topic](https://www.linkedin.com/posts/aimpoint-digital_a-guide-to-passing-the-dbt-analytics-engineering-activity-7008886189420154880-YAsq?utm_source=share&utm_medium=member_desktop)
+
+
+
 
 
 <br>
@@ -504,6 +518,10 @@
 ## Version Control
 
 #### Git
+
+- [A typical GitHub workflow // what to expect](https://www.youtube.com/watch?v=02aQhH5cNBg&ab_channel=KahanDataSolutions)
+    >*Kahan Data Solutions: "While there is a lot to learn about GitHub, in this video I want to show you the main things you'll need to know and what a typical workflow might look like"*
+
 - [An Intro to Git and GitHub for Beginners (Tutorial)](https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners)
     >*recommended in AE with dbt course. went through it, pretty solid.*
 
@@ -545,18 +563,25 @@
 
 #### DW | Snowflake
 
-Useful Code:
+- [How we configure Snowflake (by dbt-labs)](https://www.getdbt.com/blog/how-we-configure-snowflake/)
+    >*dbt-labs standard approach for seeting up Snowflake*
 
-```sql
--- use schema-info table to setup column/code
-select concat(', ', lower(column_name)), ordinal_position
-from information_schema.columns
-where lower(table_name) = 'int_users_joined_with_user_details'
-order by 2
 
--- check Timezonegit s
-show parameters like '%timezone%' 
-```
+
+
+- Useful Code:
+
+    ```sql
+    -- use schema-info table to setup column/code
+    select concat(', ', lower(column_name)), ordinal_position
+    from information_schema.columns
+    where lower(table_name) = 'int_users_joined_with_user_details'
+    order by 2
+
+    -- check Timezonegit s
+    show parameters like '%timezone%' 
+    ```
+
 
 
 <br>
