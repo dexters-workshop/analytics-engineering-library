@@ -2,7 +2,6 @@
 
 
 ## Sections
-- [To Read, To Process](#to-read-to-process)
 - [Modern Data Stack (MDS)](#modern-data-stack-mds)
 - [Analytics Engineering (AE)](#analytics-engineering-ae)
 - [Style Guides](#style-guides)
@@ -18,34 +17,6 @@
 - [Blogs, etc.](#blogs-etc)
 - [AE Experts](#ae-experts)
 - [Cool But Not Sure Where it Goes](#cool-but-not-sure-where-it-goes)
-
-<br>
-
----
-
-## To Read, To Process
-- [Hands-on: the dbt Semantic Layer](https://coalesce.getdbt.com/agenda/hands-on-the-dbt-semantic-layer)
-- [Install dbt with Docker](https://docs.getdbt.com/docs/get-started/docker-install)
-- [Bringing autocomplete to Analytics Engineers](https://www.deepchannel.com/posts/bringing-autocomplete-to-analytics-engineers?utm_source=lia)
-- [Mode, SQL CASE Overview](https://mode.com/sql-tutorial/sql-case/)
-- [dbt, CTE in SQL and why you care about CTEs](https://docs.getdbt.com/terms/cte)
-- [Common Table Expressions – The Ultimate Guide](https://www.essentialsql.com/introduction-common-table-expressions-ctes/)
-- [The Rise of Data Contracts - And Why Your Data Pipelines Don't Scale](https://dataproducts.substack.com/p/the-rise-of-data-contracts)
-- [Lessons from a Year of Contributing to Open Source](https://www.niallrees.com/posts/lessons-from-a-year-of-open-source)
-    >[follow up linkedin post](https://www.linkedin.com/posts/niall-woodward_lessons-from-a-year-of-contributing-to-open-activity-6775135557400969216-6MFI?utm_source=share&utm_medium=member_desktop)
-- [Analysts make the best analytics engineers](https://docs.getdbt.com/blog/analysts-make-the-best-aes?utm_content=222908421&utm_medium=social&utm_source=linkedin&hss_channel=lcp-10893210)
-- [What is dbt?](https://docs.getdbt.com/docs/introduction)
-- [What, exactly, is dbt?](https://www.getdbt.com/blog/what-exactly-is-dbt/)
-- [The dbt Viewpoint](https://docs.getdbt.com/docs/about/viewpoint)
-- [Using dbt & Snowflake shares](https://discourse.getdbt.com/t/using-dbt-snowflake-shares/1110)
-- [Using dbt artifacts to track project performance](https://discourse.getdbt.com/t/using-dbt-artifacts-to-track-project-performance/1873)
-
-- [Data Scientist or Analytics Engineer: How I Made the Decision That Defined My Career](https://jasnonaz.medium.com/data-scientist-or-analytics-engineer-how-i-made-the-decision-that-defined-my-career-1646d4296467)
-- [How to start your analytics engineering team](https://www.getdbt.com/coalesce-2020/how-to-start-your-analytics-engineering-team/)
-- [What is Operational Analytics (and how is it changing how we work with data)?](https://www.getcensus.com/blog/what-is-operational-analytics)
-- [SQL: Don't Do This](https://wiki.postgresql.org/wiki/Don%27t_Do_This)
-- [An Opinionated Introduction to Data Warehouse Query Strategies, Part 1 of N](https://calogica.com/sql/2018/06/22/data-warehouse-query-strategies.html)
-- [SQL Window Functions to Pass a Data Analytics Interview (Opinionated SQL Series Part 2/N)](https://calogica.com/sql/2018/07/01/sql-functions-for-data-analyst-interviews.html)
 
 
 
