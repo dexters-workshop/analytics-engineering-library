@@ -359,16 +359,22 @@
 
 ## dbt
 
-- Useful Code
+>*Nice definition/overview of dbt from AE with dbt course:*
+> - *"what is dbt? dbt (data build tool) is an open source python framework and CLI tool for compiling SQL queries into full data model DAGs that can be deployed against a warehouse. dbt is agnostic about the warehouse it is connecting to. dbt does the “T” in Extract Load Transform. It transforms the data you’ve brought into your data warehouse."*
+
+#### dbt | Useful Code
     ```sql
     -- to open profile.yml file
     open ~/.dbt/profiles.yml
     ```
 
->*Nice definition/overview of dbt from AE with dbt course:*
-> - *"what is dbt? dbt (data build tool) is an open source python framework and CLI tool for compiling SQL queries into full data model DAGs that can be deployed against a warehouse. dbt is agnostic about the warehouse it is connecting to. dbt does the “T” in Extract Load Transform. It transforms the data you’ve brought into your data warehouse."*
+#### dbt | Testing
 
-## dbt | sample projects
+- [Improving data reliability - Andrea Kopitz, Envoy (SF dbt Meetup, November 2019)](https://www.youtube.com/watch?v=M_cNspn2XsE&ab_channel=dbt)
+    >*Andrea Kopitz from Envoy presents on how her team was struggling with data errors/trust/etc. issues and the strategies her and her team implemented to turn things around. I'd really like to come back to this and implement some of her ideas in the future.*
+
+
+#### dbt | sample projects
 
 - [jaffle_shop dbt-project by dbt-labs](https://github.com/dbt-labs/jaffle_shop)
 
