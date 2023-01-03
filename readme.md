@@ -368,6 +368,18 @@
     open ~/.dbt/profiles.yml
     ```
 
+#### dbt | Best Practices
+
+- [Best practice guides](https://docs.getdbt.com/guides/best-practices)
+    >*Learn how dbt Labs approaches building projects through our current viewpoints on structure, style, and setup.*
+
+- [Data Change Management: Lessons Learned at Vouch](https://www.youtube.com/watch?v=FC0DuGY1DvM&ab_channel=dbt)
+    >*Kshitij Aranke talks at Coalesce about **automated change management**, a software engineering best-practice that he argues should be applied to AE within dbt (+beyond).*
+
+- [Introducing the dbt_project_evaluator: Automatically evaluate your dbt project for alignment with best practices](https://docs.getdbt.com/blog/align-with-dbt-project-evaluator)
+    >*Must try this out. It is basically a similar idea as a linter for SQL code but for checking to be sure a dbt-project is following a set of best-practices. Instructions in github/readme show how to **add package asa CI check (example of auto-change-mngt?)** And here is a link to a Coalesce talk on the package: [dbt Project Evaluator](https://www.youtube.com/watch?v=smbRwmcM1Ok&ab_channel=dbt)*
+
+
 #### dbt | Testing
 
 - [Improving data reliability - Andrea Kopitz, Envoy (SF dbt Meetup, November 2019)](https://www.youtube.com/watch?v=M_cNspn2XsE&ab_channel=dbt)
@@ -407,11 +419,6 @@
 
 - [dbt discourse](https://discourse.getdbt.com/)
     >**dbt hosted site for getting support with all things dbt (help, show/tell, discussion, etc.)*
-
-#### dbt | Best Practices
-
-- [Best practice guides](https://docs.getdbt.com/guides/best-practices)
-    >*Learn how dbt Labs approaches building projects through our current viewpoints on structure, style, and setup.*
 
 
 #### dbt | Project Setup
