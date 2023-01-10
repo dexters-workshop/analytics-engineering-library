@@ -352,8 +352,12 @@
 #### SQL | Linters
 
 - [SQL Fluff](https://www.sqlfluff.com/)
-- [Drizly's SQLFluff GitHub Workflow]()
 
+- [Drizly's SQLFluff GitHub Workflow](https://github.com/sqlfluff/sqlfluff-github-actions/tree/main/menu_of_workflows/drizly)
+
+
+- [sqlfmt](https://sqlfmt.com/#)
+    >*sqlfmt **formats your dbt SQL files** so you don't have to. It is similar in nature to black, gofmt, and rustfmt (but for SQL).*
 
 <br>
 
