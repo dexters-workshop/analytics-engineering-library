@@ -7,6 +7,7 @@
 - [Style Guides](#style-guides)
 - [Data Modeling](#data-modeling)
 - [SQL](#sql)
+- [Jinja](#jinja)
 - [dbt](#dbt)
 - [Command Line Interface (CLI)](#command-line-interface-cli)
 - [YAML](#yaml)
@@ -358,6 +359,16 @@
 
 - [sqlfmt](https://sqlfmt.com/#)
     >*sqlfmt **formats your dbt SQL files** so you don't have to. It is similar in nature to black, gofmt, and rustfmt (but for SQL).*
+
+
+<br>
+
+## Jinja
+
+#### Jinja | General
+
+- [Jinja Template Designer Documentation](https://jinja.palletsprojects.com/en/3.1.x/templates/)
+    >*"This document describes the syntax and semantics of the template engine and will be most useful as reference to those creating Jinja templates."*
 
 <br>
 
