@@ -15,9 +15,10 @@
 - [Markdown](#markdown)
 - [Visual Studio Code](#visual-studio-code)
 - [Data Warehouses](#data-warehouses)
-- [Blogs, etc.](#blogs-etc)
+- [Blogs](#blogs)
 - [AE Experts](#ae-experts)
 - [Cool But Not Sure Where it Goes](#cool-but-not-sure-where-it-goes)
+- [Non AE](#non-ae)
 
 
 
@@ -586,20 +587,11 @@
 <br>
 
 
-## Blogs, etc.
+## Blogs
 - [Learn Analytics Engineering](https://madisonmae.substack.com/)
 - [Locally Optimistic](https://locallyoptimistic.com/)
 - [Modern SQL - A Lot has Changed Since SQL - 92](https://modern-sql.com/concept/three-valued-logic)
 - [Kahan Data Solutions](https://www.kahandatasolutions.com/blog)
-
-
-<br>
-
-## Non-AE
-
-- [When Subtraction Adds Value](https://hbr.org/2022/02/when-subtraction-adds-value)
-    >*interesting take on how to think about subtracting work instead of adding work when involved in Decision Making and Problem Solving.*
-
 
 
 
@@ -609,3 +601,13 @@
 - [Github: Star History Charts](https://star-history.com/#sqlfluff/sqlfluff&Date)
 - [Salary Hints](https://www.salaryhints.com/)
     >*site by andrew chen that crowdsources salary data for data roles*
+
+
+<br>
+
+## Non-AE
+
+- [When Subtraction Adds Value](https://hbr.org/2022/02/when-subtraction-adds-value)
+    >*interesting take on how to think about subtracting work instead of adding work when involved in Decision Making and Problem Solving.*
+
+- [CONFIDENCE-BUILDING IS NOT ROMANTIC. SORRY](https://candacedoby.com/confidence-building-not-romantic/)
