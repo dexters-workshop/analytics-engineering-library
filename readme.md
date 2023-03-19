@@ -159,6 +159,11 @@
 #### DM | Books
 - [Data Modeling Storytelling](https://technicspub.com/data-model-storytelling/)
 
+#### DM | Salesforce
+- [Fivetran - Salesforce Source dbt Package](https://fivetran.com/docs/transformations/data-models/salesforce-data-model/salesforce-source-model)
+    >*includes for data dicitionary/documentation for salesforce tables/fields*
+    >**[link to github repo:](https://github.com/fivetran/dbt_salesforce_source/tree/main/models)
+
 
 
 <br>
