@@ -51,6 +51,8 @@
 
 - [What is analytics engineering?](https://www.getdbt.com/what-is-analytics-engineering/)
 
+- [Becoming an analytics engineer: two insider views](https://brooklyndata.co/blog/analyticsengineerinsisderview)
+
 - [Brooklyn Data Company, AE Progression Skills at each Level](https://brooklyn-data-co.progressionapp.com/teams/data-team)
 
 - [Analytics Engineering Everywhere (by Jason Ganz)](https://jasnonaz.medium.com/analytics-engineering-everywhere-d56f363da625)
