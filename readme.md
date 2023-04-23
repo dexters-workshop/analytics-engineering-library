@@ -617,4 +617,7 @@
 - [When Subtraction Adds Value](https://hbr.org/2022/02/when-subtraction-adds-value)
     >*interesting take on how to think about subtracting work instead of adding work when involved in Decision Making and Problem Solving.*
 
-- [CONFIDENCE-BUILDING IS NOT ROMANTIC. SORRY](https://candacedoby.com/confidence-building-not-romantic/)
+- [Estimation is a Core Competency](https://postlight.com/insights/estimation-is-a-core-competency)
+    >*Estimating how much time and effort it will take to build or fix software isn’t easy, and most people are really bad at it.*
+
+- [Confidence building is not romantic. Sorry](https://candacedoby.com/confidence-building-not-romantic/)
