@@ -2,6 +2,7 @@
 
 
 ## Sections
+- [Data Teams](#data-teams)
 - [Modern Data Stack (MDS)](#modern-data-stack-mds)
 - [Analytics Engineering (AE)](#analytics-engineering-ae)
 - [Style Guides](#style-guides)
@@ -19,6 +20,14 @@
 - [AE Experts](#ae-experts)
 - [Cool But Not Sure Where it Goes](#cool-but-not-sure-where-it-goes)
 - [Non AE](#non-ae)
+
+<br>
+
+## Data Teams
+Resources and info related to ideas and best-practices for data teams to follow
+
+- [Reducing the Lottery Factor, for Data Teams](https://locallyoptimistic.com/post/reducing-the-lottery-factor-for-data-teams/)
+    >*Laundry list of ideas/practices to help future proof a data team - esp. regarding when team smembers come/go.*
 
 
 
