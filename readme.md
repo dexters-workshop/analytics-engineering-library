@@ -630,3 +630,5 @@ Resources and info related to ideas and best-practices for data teams to follow
     >*Estimating how much time and effort it will take to build or fix software isn’t easy, and most people are really bad at it.*
 
 - [Confidence building is not romantic. Sorry](https://candacedoby.com/confidence-building-not-romantic/)
+
+- [Good Interviewer/Bad Interviewer](https://www.metaview.ai/resources/blog/good-interviewer-bad-interviewer)
