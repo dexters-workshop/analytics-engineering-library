@@ -370,6 +370,7 @@ Resources and info related to ideas and best-practices for data teams to follow
 #### SQL | Linters
 
 - [SQL Fluff](https://www.sqlfluff.com/)
+  > [Rolling out SQLFluff with a new team](https://docs.sqlfluff.com/en/stable/teamrollout.html)
 
 - [Drizly's SQLFluff GitHub Workflow](https://github.com/sqlfluff/sqlfluff-github-actions/tree/main/menu_of_workflows/drizly)
 
