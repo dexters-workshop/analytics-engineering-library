@@ -413,6 +413,14 @@ Resources and info related to ideas and best-practices for data teams to follow
     >*Must try this out. It is basically a similar idea as a linter for SQL code but for checking to be sure a dbt-project is following a set of best-practices. Instructions in github/readme show how to **add package asa CI check (example of auto-change-mngt?)** And here is a link to a Coalesce talk on the package: [dbt Project Evaluator](https://www.youtube.com/watch?v=smbRwmcM1Ok&ab_channel=dbt)*
 
 
+#### dbt | Primary Keys
+
+- [Primary key (natural vs. surrogate)](https://docs.getdbt.com/terms/primary-key)
+- [Surrogate key](https://docs.getdbt.com/terms/surrogate-key)
+- [Generating Surrogate Keys Across Warehouses](https://docs.getdbt.com/blog/sql-surrogate-keys)
+- [dbt-project-evaluator | Missing Primary Key Tests](https://dbt-labs.github.io/dbt-project-evaluator/latest/rules/testing/#missing-primary-key-tests)
+
+
 #### dbt | Testing
 
 - [Improving data reliability - Andrea Kopitz, Envoy (SF dbt Meetup, November 2019)](https://www.youtube.com/watch?v=M_cNspn2XsE&ab_channel=dbt)
@@ -431,12 +439,6 @@ Resources and info related to ideas and best-practices for data teams to follow
     >Building a Mature Analytics Workflow: The dbt Viewpoint!
 
 - [GitLabs File/Code Using dbt_utils.date_spine() to create Date Dimension(s) Table](https://gitlab.com/gitlab-data/analytics/-/blob/master/transform/snowflake-dbt/models/sources/date/date_details_source.sql?_gl=1%2ab6hyp4%2a_ga%2aMTUzODIxMDk2NC4xNjY1ODY4OTE3%2a_ga_ENFH3X7M5Y%2aMTY2NTg2ODkxNy4xLjAuMTY2NTg2ODkxNy4wLjAuMA..)
-
-- [Generating Surrogate Keys Across Warehouses (by dbt-labs)](https://docs.getdbt.com/blog/sql-surrogate-keys)
-    >*"A surrogate key is a primary key that, instead of existing in your underlying dataset, is derived in the analytics layer itself." This is useful for models/tables that don't have obvious PKs*
-    > - ***example:** combining values from two fields to make a 'PK' is an example of deriving a surrogate key.*
-    > - ***dbt_utils.surrogate_key**(): "takes a list of columns, creates a hash that will remain unique as long as the input columns remain the same"*. ***keypoint:** "Forming your surrogate keys with this macro has the benefit of elegant + DRY null handling."*
-    >- ***when to use?** "you should have a surrogate key on any table that doesn’t already have a unique primary key"*
 
 - [Never used dbt? Here’s how it can change your data game](https://www.getcensus.com/blog/never-used-dbt)
      >- ***great explanation:** dbt is a data transformation tool that leverages the power of SQL and Jinja to write modular data models within your data warehouse. It reads from the data within your data warehouse and writes to it without ever leaving, allowing you to test and document your code and promoting proper code maintenance along the way.*
