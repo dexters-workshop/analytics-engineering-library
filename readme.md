@@ -5,6 +5,7 @@
 - [Data Teams](#data-teams)
 - [Modern Data Stack (MDS)](#modern-data-stack-mds)
 - [Analytics Engineering (AE)](#analytics-engineering-ae)
+- [Documentation](#documentation)
 - [Style Guides](#style-guides)
 - [Data Modeling](#data-modeling)
 - [SQL](#sql)
@@ -106,6 +107,17 @@ Resources and info related to ideas and best-practices for data teams to follow
 - [Madison Schott](https://madisonmae.substack.com/)
 - [Parker Tenpas](https://pdtenpas.github.io/)
 
+
+<br>
+
+## Documentation
+
+### DRY Documentation
+- [Building Sustainable dbt Project Documentation (Jeremie Pineau)](https://blog.montrealanalytics.com/building-sustainable-dbt-project-documentation-8def88ca67c3)
+  * author's quick tips for docs that scale
+    1. Doc blocks are a great tool to make your documentation DRY.
+    2. Always document fields at the source where they are introduced in your project.
+    3. Use your doc blocks as a single source of truth & refer to them throughout your projet.
 
 <br>
 
